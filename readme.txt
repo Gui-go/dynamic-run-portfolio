@@ -25,10 +25,10 @@ flutter run -d web
 
 
 # Build:
-docker build -t dynamic-run-portfolio .
+docker build -t guigo13/dynamic-run-portfolio .
 
 # Run:
-docker run -p 8080:80 dynamic-run-portfolio
+docker run -p 8080:80 guigo13/dynamic-run-portfolio
 
 docker push guigo13/dynamic-run-portfolio
 
