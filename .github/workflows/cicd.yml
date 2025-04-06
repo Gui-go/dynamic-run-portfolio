@@ -27,3 +27,5 @@ jobs:
           context: .
           push: true
           tags: guigo13/dynamic-run-portfolio:latest
+
+
