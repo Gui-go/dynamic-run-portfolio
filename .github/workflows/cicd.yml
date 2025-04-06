@@ -26,6 +26,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: guigo13/dynamic-run-portfolio:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/dynamic-run-portfolio:latest
 
 
