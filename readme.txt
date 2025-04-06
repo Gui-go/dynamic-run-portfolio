@@ -25,10 +25,13 @@ flutter run -d web
 
 
 # Build:
-docker build -t flutter-app -f flutter.dockerfile .
+docker build -t dynamic-run-portfolio .
 
 # Run:
-docker run -p 8080:80 flutter-app
+docker run -p 8080:80 dynamic-run-portfolio
+
+docker push guigo13/dynamic-run-portfolio
+
 
 gcloud auth configure-docker
 docker tag flutter-app gcr.io/YOUR_PROJECT_ID/flutter-app
