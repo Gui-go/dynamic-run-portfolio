@@ -5,3 +5,13 @@
 
 /terraform/.terraform/
 /terraform/dynamic-run-portfolio1-sa-credential.json
+
+
+
+*.deb
+*.cc
+*.swift
+*.cmake
+*.zip
+*.tar.gz
+build/

@@ -22,7 +22,8 @@ flutter config --enable-web
 flutter create flutter_app
 cd flutter_app
 flutter run -d web
-
+flutter run -d chrome
+flutter build web
 
 # Build:
 docker build -t guigo13/dynamic-run-portfolio .
