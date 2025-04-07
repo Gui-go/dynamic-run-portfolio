@@ -75,6 +75,16 @@ gcloud artifacts repositories create dynamic-run-portfolio-repo \
 
 
 
+
+
+--
+
+gcloud iam service-accounts create terraform-local-sa \
+  --display-name "Allows Terraform to create GCP resources"
+
+
+
+
 terraform init 
 terraform apply
 terraform state list
@@ -83,3 +93,17 @@ terraform state show module.network.google_dns_record_set.tf_a_record
 
 # Get a graph viz:
 terraform graph | dot -Tsvg > graph.svg
+
+
+
+
+Google Search Console
+TXT Record 
+domain from registro.br
+
+
+
+
+
+
+

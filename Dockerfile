@@ -15,7 +15,7 @@ RUN flutter build web --release
 FROM nginx:alpine
 
 # Copy custom config to ensure port 8080 is used
-COPY /nginx.conf /etc/nginx/nginx.conf
+COPY nginx.conf /etc/nginx/nginx.conf
 
 # Copy the web build output
 COPY --from=build /app/build/web /usr/share/nginx/html
