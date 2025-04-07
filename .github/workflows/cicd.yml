@@ -39,7 +39,6 @@ jobs:
         run: |
           gcloud run deploy dynamic-run-portfolio \
             --image=us-docker.pkg.dev/dynamic-run-portfolio1/dynamic-run-portfolio-repo/dynamic-run-portfolio:latest \
-            --domain=guigo.dev.br \
             --platform=managed \
             --region=us-central1 \
             --allow-unauthenticated
