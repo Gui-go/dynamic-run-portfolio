@@ -7,16 +7,19 @@ RUN flutter pub get
 
 COPY flutter_app/. .
 
-# Clean auto-generated junk from host (optional but safe)
 RUN rm -rf .dart_tool .packages .flutter-plugins .flutter-plugins-dependencies
 
 RUN flutter build web --release
 
-# 🧊 Use nginx to serve the built web app
+# 🧊 Serve the web build using NGINX
 FROM nginx:alpine
-COPY --from=build /app/build/web /usr/share/nginx/html
+
+# Copy custom config to ensure port 8080 is used
 COPY nginx.conf /etc/nginx/nginx.conf
 
+# Copy the web build output
+COPY --from=build /app/build/web /usr/share/nginx/html
 
 EXPOSE 8080
+
 CMD ["nginx", "-g", "daemon off;"]
