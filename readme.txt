@@ -83,3 +83,17 @@ terraform state show module.network.google_dns_record_set.tf_a_record
 
 # Get a graph viz:
 terraform graph | dot -Tsvg > graph.svg
+
+
+
+
+Google Search Console
+TXT Record 
+domain from registro.br
+
+
+
+
+
+
+
