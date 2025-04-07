@@ -44,8 +44,32 @@ docker push gcr.io/$PROJECT_ID/$IMAGE_NAME
 gcloud run deploy flutter-app --image gcr.io/YOUR_PROJECT_ID/flutter-app --platform managed --allow-unauthenticated --region us-central1
 
 
+gcloud services enable run.googleapis.com
+
+gcloud iam service-accounts create github-actions-deployer \
+  --display-name "GitHub Actions Cloud Run Deployer"
 
 
+gcloud projects add-iam-policy-binding dynamic-run-portfolio1 \
+  --member="serviceAccount:github-actions-deployer@dynamic-run-portfolio1.iam.gserviceaccount.com" \
+  --role="roles/run.admin"
+
+gcloud projects add-iam-policy-binding dynamic-run-portfolio1 \
+  --member="serviceAccount:github-actions-deployer@dynamic-run-portfolio1.iam.gserviceaccount.com" \
+  --role="roles/iam.serviceAccountUser"
+
+gcloud projects add-iam-policy-binding dynamic-run-portfolio1 \
+  --member="serviceAccount:github-actions-deployer@dynamic-run-portfolio1.iam.gserviceaccount.com" \
+  --role="roles/artifactregistry.admin"
+
+gcloud iam service-accounts keys create key.json \
+  --iam-account=github-actions-deployer@dynamic-run-portfolio1.iam.gserviceaccount.com
+
+
+gcloud artifacts repositories create dynamic-run-portfolio-repo \
+  --repository-format=docker \
+  --location=us \
+  --description="Docker repo for my portfolio app"
 
 
 

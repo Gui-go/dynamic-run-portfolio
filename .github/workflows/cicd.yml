@@ -25,8 +25,8 @@ jobs:
         with:
           project_id: dynamic-run-portfolio1
 
-      - name: Configure Docker for Artifact Registry (if needed)
-        run: gcloud auth configure-docker
+      - name: Configure Docker for Artifact Registry
+        run: gcloud auth configure-docker us-docker.pkg.dev
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
@@ -38,9 +38,7 @@ jobs:
       - name: Deploy to Cloud Run
         run: |
           gcloud run deploy dynamic-run-portfolio \
-            --image=gcr.io/dynamic-run-portfolio1/dynamic-run-portfolio:latest \
+            --image=us-docker.pkg.dev/dynamic-run-portfolio1/dynamic-run-portfolio-repo/dynamic-run-portfolio:latest \
             --platform=managed \
             --region=us-central1 \
             --allow-unauthenticated
-
-
