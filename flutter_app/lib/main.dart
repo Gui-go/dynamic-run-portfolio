@@ -161,7 +161,9 @@ class _PortfolioHomePageState extends State<PortfolioHomePage> {
               dropdownColor: Colors.indigo[800],
               items: [
                 const DropdownMenuItem(value: 'en', child: Text('EN', style: TextStyle(color: Colors.white))),
+                const DropdownMenuItem(value: 'pt', child: Text('PT', style: TextStyle(color: Colors.white))),
                 const DropdownMenuItem(value: 'es', child: Text('ES', style: TextStyle(color: Colors.white))),
+                const DropdownMenuItem(value: 'de', child: Text('DE', style: TextStyle(color: Colors.white))),
               ],
               onChanged: (value) => _switchLanguage(value!),
             ),

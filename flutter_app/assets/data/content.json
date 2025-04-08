@@ -140,8 +140,148 @@
         "availability": "Open to freelance and collaboration opportunities."
       }
     },
+    "pt": {
+      "app_title": "Portfólio de Guilherme",
+      "nav": {
+        "home": "Início",
+        "cv": "Currículo",
+        "publications": "Publicações",
+        "projects": "Projetos",
+        "blog": "Blog",
+        "geolayers": "GeoCamadas",
+        "discovery_search": "Busca de Descoberta",
+        "contact": "Contato"
+      },
+      "home": {
+        "welcome": "Bem-vindo ao Portfólio de Guilherme",
+        "intro": "Sou Guilherme, um Cientista|Engenheiro de Dados, fundindo tecnologia e dados em soluções extraordinárias.",
+        "quote": "Os números sussurram a verdade; minha busca é revelar os padrões ocultos que moldam nosso mundo.",
+        "button": "Vamos criar valor juntos!",
+        "mission": "Minha missão é transformar dados brutos em narrativas significativas que promovam compreensão e impacto.",
+        "passion": "O que me empolga é a capacidade de transformar conjuntos de dados complexos em insights reais que importam.",
+        "stats": [
+          {"label": "Projetos Lançados", "value": "60+"},
+          {"label": "Publicações Escritas", "value": "3"},
+          {"label": "Anos Inovando", "value": "6"},
+          {"label": "Cidades Visitadas", "value": "150+"}
+        ]
+      },
+      "cv": {
+        "title": "Currículo",
+        "summary": "Um profissional de dados visionário, combinando criatividade com precisão analítica.",
+        "education": [
+          {"degree": "Mestrado em Tecnologias Geoespaciais", "institution": "Universidade de Münster (WWU)", "year": "2023-2025", "details": "Tese: Dinâmicas de Migração no Brasil: Uma Análise Econométrica Espacial"},
+          {"degree": "Bacharelado em Ciências Econômicas", "institution": "Universidade Federal de Santa Catarina (UFSC)", "year": "2018-2022", "details": "Tese: Educação Superior, Complexidade Econômica e Transbordamentos de Conhecimento nas Microrregiões do Brasil. Uma Abordagem de Regressão Ponderada Geograficamente"}
+        ],
+        "experience": [
+          {"role": "Engenheiro de Dados na Nuvem", "company": "CloudPilots", "duration": "2024 - 2025", "description": "Desenvolvimento de pipelines de dados que garantem qualidade e disponibilidade, consultoria para clientes externos e experimentação com IA."},
+          {"role": "Consultor de Dados", "company": "Inetum", "duration": "2022 - 2024", "description": "Consultoria em Nuvem e Dados, principalmente com Azure, GCP, Terraform, Python e Bash."},
+          {"role": "Agente de Censo para Administração e Informática", "company": "IBGE (Instituto Brasileiro de Geografia e Estatística)", "duration": "Ago 2022 - Out 2022", "description": "Pesquisa de campo para o Censo Brasileiro de 2022. Gestão de recursos humanos e treinamento de novos agentes de campo. Alocação de equipamentos e materiais para os agentes."},
+          {"role": "Cientista de Dados Aplicado", "company": "4intelligence", "duration": "2021 - 2022", "description": "Desenvolvimento de pipelines para previsão de séries temporais, com Bash, Python, R e Azure."},
+          {"role": "Cientista de Dados Júnior", "company": "Aquarela Advanced Analytics", "duration": "2019 - 2021", "description": "Consultoria em Ciência de Dados em diversos projetos, usando R, Python, Docker, JS, SQL, Postgres, GCP, AWS, Terraform."}
+        ],
+        "skills": ["GCP", "Bash", "Terraform", "Python", "R", "Docker", "Azure", "AWS", "Agentes de IA", "Web Scraping", "API", "Git", "QGIS", "Flutter", "Dart", "Visualização de Dados", "Aprendizado de Máquina", "SQL", "Sensoriamento Remoto", "JavaScript", "PostgreSQL", "MongoDB"],
+        "cv_download": "Baixar Currículo",
+        "certifications": [
+          {"name": "Certificação de Praticante Associado de Dados", "issuer": "Google Cloud", "year": "2024", "link": "https://www.credly.com/badges/73244529-d60a-463d-b86e-a3dd6086d612/"},
+          {"name": "Certificação de Líder Digital na Nuvem", "issuer": "Google Cloud", "year": "2024", "link": "https://www.credly.com/badges/cf4501f7-7726-47c3-8b38-d2795723894e/"},
+          {"name": "Cientista de Dados Associado Azure", "issuer": "Microsoft Azure", "year": "2023", "link": "https://learn.microsoft.com/en-us/users/guilhermeviegas-1359/credentials/ee569343bb2538dc?ref=https%3A%2F%2Fwww.linkedin.com%2F"}
+        ],
+        "awards": [
+          {"name": "Bolsa de mérito para o módulo de tese de mestrado", "event": "Mestrado em Tecnologias Geoespaciais", "year": "2025"}
+        ]
+      },
+      "publications": {
+        "title": "Publicações",
+        "items": [
+          {"title": "Complexidade de exportação, complexidade industrial e crescimento econômico regional no Brasil", "subtitle": "", "link": "https://econpapers.repec.org/paper/arxpapers/2312.07469.htm"},
+          {"title": "Educação Superior, Complexidade Econômica e Transbordamentos de Conhecimento nas Microrregiões do Brasil.", "subtitle": "Uma Abordagem de Regressão Ponderada Geograficamente", "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4549754"},           
+          {"title": "Notas sobre os Microdados do Censo:", "subtitle": "Extração, Transformação e Carregamento com Bash, PySpark e Armazenamento na Nuvem", "link": "https://medium.com/@guilhermeviegas/observa%C3%A7%C3%B5es-sobre-os-microdados-do-censo-extra%C3%A7%C3%A3o-transforma%C3%A7%C3%A3o-e-carregamento-com-bash-pyspark-f895b2ee739d"},
+          {"title": "Normalização Geográfica:", "subtitle": "O que é e quais são suas implicações?", "link": "https://aquare.la/normalizacao-geografica/"},
+          {"title": "Neutralidade do Dinheiro na Era Covid-19:", "subtitle": "Uma Análise Animada com R", "link": "https://medium.com/@guilhermeviegas/neutralidade-da-moeda-na-era-covid19-uma-an%C3%A1lise-animada-atrav%C3%A9s-do-r-b79cc0f3ee98"},
+          {"title": "Observatório Socioeconômico de Santa Catarina", "subtitle": "OSESC", "link": "https://drive.google.com/file/d/1dat0aqaCNWdex1HIRWemxf7r9SH7U57D/view"},
+          {"title": " ", "subtitle": " ", "link": " "}
+        ]
+      },
+      "projects": {
+        "title": "Projetos",
+        "items": [
+          {"name": "Wilhelm, seu Professor Artificial de Econometria", "description": "Livro digital para ensinar Econometria com o suporte de um Agente de IA, Wilhelm, que ajuda o usuário a aproveitar ao máximo as aulas.", "tech": "GCP, R, Python, SQL", "image": "assets/images/wilhelmRobotProfessor.jpg"},
+          {"name": "BRvectors", "description": "Um pacote R para acessar dados de polígonos brasileiros em várias granularidades espaciais, além de métodos para Análise Exploratória de Dados Espaciais.", "tech": "R, Rstudio, Posit, Brasil, Polígono, IBGE, SHP, GeoParquet", "image": "assets/images/BRvectors.jpg"},
+          {"name": "AzureVM4Nomads", "description": "Script de automação Terraform para implantação de Máquinas Virtuais Azure em escala.", "tech": "Terraform, Azure, Computação em Nuvem", "image": "assets/images/digitalNomad.jpg"},
+          {"name": "Quanto vale essa mansão?", "description": "Previsão de dados espaciais para estimar o preço de uma casa - supostamente - superfaturada comprada por um político.", "tech": "Python, SQL", "image": "assets/images/mansion.jpg"},
+          {"name": "Motion Snitcher", "description": "Código Bash e Python para um Raspberry Pi enviar mensagens quando um movimento é detectado.", "tech": "Bash, Python, IoT, RaspberryPi", "image": "assets/images/raspberryPI.jpg"},
+          {"name": "Equanimy Systems", "description": "Um sistema de IA para alocar recursos de forma eficiente e equânime em um grupo.", "tech": "Bash, Python, IoT, RaspberryPi", "image": "assets/images/dawnofacity.jpg"}
+        ]
+      },
+      "blog": {
+        "title": "Blog",
+        "posts": [
+          {"title": "Notas sobre os Microdados do Censo: Extração, Transformação e Carregamento com Bash, PySpark e Armazenamento na Nuvem", "snippet": "abc", "date": "Set 2022", "link": "https://medium.com/@guilhermeviegas/observa%C3%A7%C3%B5es-sobre-os-microdados-do-censo-extra%C3%A7%C3%A3o-transforma%C3%A7%C3%A3o-e-carregamento-com-bash-pyspark-f895b2ee739d"},
+          {"title": "Normalização Geográfica: O que é e quais são suas implicações?", "snippet": "abc", "date": "Nov 2020", "link": "https://aquare.la/normalizacao-geografica/"},
+          {"title": "Neutralidade do Dinheiro na Era Covid-19: Uma Análise Animada com R", "snippet": "abc", "date": "Jan 2021", "link": "https://medium.com/@guilhermeviegas/neutralidade-da-moeda-na-era-covid19-uma-an%C3%A1lise-animada-atrav%C3%A9s-do-r-b79cc0f3ee98"},          
+          {"title": "Bolg1", "snippet": "abc", "date": "Dez 2020", "link": "https://example.com/blog3"},
+          {"title": "Bolg2", "snippet": "abc", "date": "Nov 2020", "link": "https://example.com/blog4"},
+          {"title": "Bolg3", "snippet": "abc", "date": "Out 2020", "link": "https://example.com/blog5"},
+          {"title": "Bolg4", "snippet": "abc", "date": "Set 2020", "link": "https://example.com/blog6"}
+        ]
+      },
+      "geolayers": {
+        "title": "GeoCamadas",
+        "description": "Obras-primas geoespaciais em camadas que revelam padrões ocultos.",
+        "layers": [
+          {"name": "Principais cidades que visitei", "detail": "Pontos no mapa sobre as principais cidades que visitei pelo mundo.", "icon": "people"},
+          {"name": "Padrões de Uso do Solo", "detail": "Categorização de paisagens urbanas.", "icon": "terrain"},
+          {"name": "Zonas Climáticas", "detail": "Mapeamento de mudanças de temperatura.", "icon": "cloud"},
+          {"name": "Fluxo de Tráfego", "detail": "Análise de tráfego urbano em tempo real.", "icon": "traffic"},
+          {"name": "Meus Restaurantes Favoritos", "detail": "Pontos no mapa sobre meus restaurantes favoritos pelo mundo.", "icon": "thumb_up"}
+        ]
+      },
+      "discovery_search": {
+        "title": "Busca Generativa de Descoberta",
+        "subtabs": {
+          "gwr_discovery": {
+            "title": "Descoberta GWR",
+            "description": "Este motor é especializado em explorar as variações e semelhanças entre diferentes Modelos Ponderados Geograficamente (GWR, MixedGWR, MultiscaleGWR, etc.), ajudando pesquisadores a analisar técnicas de regressão espacial.",
+            "example": "Diferença entre GWR e MixedGWR.",
+            "image": "assets/images/gwrSearchEngine.jpg",
+            "configId": "17a54e06-27f5-49e7-9bea-6f1d16bf6355"
+          },
+          "ms_thesis_discovery": {
+            "title": "Descoberta da Tese de Mestrado",
+            "description": "Este motor de busca foi projetado para auxiliar na descoberta, organização e análise de recursos acadêmicos relacionados à tese de Guilherme sobre 'migração devido a oportunidades econômicas'.",
+            "example": "O livro O Objeto Sublime da Ideologia, de Slavoj Zizek.",
+            "image": "assets/images/migSearchEngine.png",
+            "configId": "d12a6e07-8f62-4135-94b9-97279b7ad9f7"
+          },
+          "virtual_guigo": {
+            "title": "Guigo Virtual",
+            "description": "Este é um assistente de busca de IA personalizado projetado para atuar como uma versão virtual de Guilherme, fornecendo insights e assistência com base em sua expertise.",
+            "example": "O que Guilherme diria sobre isso?",
+            "image": "assets/images/virtualGuigo.png",
+            "configId": "df7e1970-11ba-41a3-8bbb-f1e235acaba1"
+          }
+        }
+      },
+      "contact": {
+        "title": "Conecte-se Comigo",
+        "intro": "Tem um projeto, uma dúvida ou só quer conversar? Entre em contato!",
+        "email_label": "E-mail",
+        "name_label": "Nome",
+        "message_label": "Mensagem",
+        "send_button": "Enviar Mensagem",
+        "social": [
+          {"platform": "LinkedIn", "link": "https://www.linkedin.com/in/guilherme-viegas-1b5b0495/"},
+          {"platform": "GitHub", "link": "https://github.com/Gui-go"},
+          {"platform": "Twitter", "link": "https://twitter.com/yourhandle"},
+          {"platform": "Portfólio", "link": "guigo.dev.br"}
+        ],
+        "location": "Baseado em: Algum lugar, Terra",
+        "availability": "Aberto a oportunidades de freelance e colaboração."
+      }
+    },
     "es": {
-      "app_title": "Odisea Digital de Guilherme",
+      "app_title": "Portafolio de Guilherme",
       "nav": {
         "home": "Inicio",
         "cv": "Currículum Vitae",
@@ -153,128 +293,271 @@
         "contact": "Contacto"
       },
       "home": {
-        "welcome": "Bienvenido al Portafolio Cósmico de Guilherme",
-        "intro": "Soy Guilherme, un Mago Geoespacial, Alquimista de Flutter y Explorador de Datos que fusiona tecnología y geografía en soluciones extraordinarias.",
-        "button": "Embárcate en la Aventura",
-        "quote": "Forjando el futuro, un mapa y código a la vez.",
+        "welcome": "Bienvenido al Portafolio de Guilherme",
+        "intro": "Soy Guilherme, un Científico|Ingeniero de Datos, fusionando tecnología y datos en soluciones extraordinarias.",
+        "quote": "Los números susurran la verdad; mi búsqueda es descubrir los patrones ocultos que dan forma a nuestro mundo.",
+        "button": "¡Creemos valor juntos!",
+        "mission": "Mi misión es transformar datos crudos en narrativas significativas que impulsen la comprensión y el impacto.",
+        "passion": "Lo que me apasiona es la capacidad de convertir conjuntos de datos complejos en conocimientos del mundo real que importan.",
         "stats": [
-          {"label": "Proyectos Lanzados", "value": "22+"},
-          {"label": "Publicaciones Escritas", "value": "9"},
+          {"label": "Proyectos Lanzados", "value": "60+"},
+          {"label": "Publicaciones Escritas", "value": "3"},
           {"label": "Años Innovando", "value": "6"},
-          {"label": "Regiones Mapeadas", "value": "15"}
-        ],
-        "mission": "Transformando datos crudos en conocimientos galácticos para un mundo mejor.",
-        "passion": "Impulsado por la curiosidad, alimentado por código e inspirado por la vastedad de la Tierra."
+          {"label": "Ciudades Visitadas", "value": "150+"}
+        ]
       },
       "cv": {
         "title": "Currículum Vitae",
-        "summary": "Un visionario en tecnología geoespacial y desarrollo de software, combinando creatividad con precisión analítica.",
+        "summary": "Un profesional de datos visionario, combinando creatividad con precisión analítica.",
         "education": [
-          {"degree": "M.S. en Ciencia Geoespacial", "institution": "Universidad de Algún Lugar", "year": "2023", "details": "Tesis: Dinámicas Climáticas Espacio-Temporales"},
-          {"degree": "B.S. en Geografía", "institution": "Otra Universidad", "year": "2020", "details": "Especialización: GIS y Sensores Remotos"},
-          {"degree": "Certificado en Ciencia de Datos", "institution": "Academia en Línea", "year": "2021", "details": "Enfoque: Aplicaciones de Aprendizaje Automático"}
+          {"degree": "Maestría en Tecnologías Geoespaciales", "institution": "Universidad de Münster (WWU)", "year": "2023-2025", "details": "Tesis: Dinámicas de Migración en Brasil: Un Análisis Econométrico Espacial"},
+          {"degree": "Licenciatura en Ciencias Económicas", "institution": "Universidad Federal de Santa Catarina (UFSC)", "year": "2018-2022", "details": "Tesis: Educación Superior, Complejidad Económica y Derrames de Conocimiento en las Microrregiones de Brasil. Un Enfoque de Regresión Ponderada Geográficamente"}
         ],
         "experience": [
-          {"role": "Analista Geoespacial Senior", "company": "TechGeo Inc.", "duration": "2023 - Presente", "description": "Dirigí el desarrollo de plataformas de mapeo interactivo y modelos predictivos."},
-          {"role": "Asociado de Investigación", "company": "Uni Lab", "duration": "2021 - 2023", "description": "Pionero en algoritmos espaciales para investigación climática."},
-          {"role": "Especialista GIS", "company": "GeoStart", "duration": "2020 - 2021", "description": "Mejoré el mapeo rural con herramientas de código abierto."},
-          {"role": "Desarrollador Independiente", "company": "Autónomo", "duration": "2019 - 2020", "description": "Construí aplicaciones geoespaciales personalizadas para clientes."}
+          {"role": "Ingeniero de Datos en la Nube", "company": "CloudPilots", "duration": "2024 - 2025", "description": "Desarrollo de pipelines de datos que aseguran calidad y disponibilidad, consultoría para clientes externos y experimentación con IA."},
+          {"role": "Consultor de Datos", "company": "Inetum", "duration": "2022 - 2024", "description": "Consultoría en Nube y Datos, principalmente con Azure, GCP, Terraform, Python y Bash."},
+          {"role": "Agente de Censo para Administración e Informática", "company": "IBGE (Instituto Brasileño de Geografía y Estadística)", "duration": "Ago 2022 - Oct 2022", "description": "Investigación de campo para el Censo Brasileño de 2022. Gestión de recursos humanos y capacitación de nuevos agentes de campo. Asignación de equipos y materiales a los agentes."},
+          {"role": "Científico de Datos Aplicado", "company": "4intelligence", "duration": "2021 - 2022", "description": "Desarrollo de pipelines para pronósticos de series temporales, con Bash, Python, R y Azure."},
+          {"role": "Científico de Datos Júnior", "company": "Aquarela Advanced Analytics", "duration": "2019 - 2021", "description": "Consultoría en Ciencia de Datos en varios proyectos, usando R, Python, Docker, JS, SQL, Postgres, GCP, AWS, Terraform."}
         ],
-        "skills": ["Flutter", "Dart", "GIS", "Python", "R", "QGIS", "ArcGIS", "Visualización de Datos", "Aprendizaje Automático", "SQL", "Sensores Remotos", "JavaScript", "AWS"],
+        "skills": ["GCP", "Bash", "Terraform", "Python", "R", "Docker", "Azure", "AWS", "Agentes de IA", "Web Scraping", "API", "Git", "QGIS", "Flutter", "Dart", "Visualización de Datos", "Aprendizaje Automático", "SQL", "Sensores Remotos", "JavaScript", "PostgreSQL", "MongoDB"],
         "cv_download": "Descargar CV",
         "certifications": [
-          {"name": "Profesional Certificado en GIS", "issuer": "GISP", "year": "2024"},
-          {"name": "Desarrollador Avanzado de Flutter", "issuer": "Google", "year": "2023"},
-          {"name": "Arquitecto de Soluciones Certificado por AWS", "issuer": "Amazon", "year": "2022"}
+          {"name": "Certificación de Practicante Asociado de Datos", "issuer": "Google Cloud", "year": "2024", "link": "https://www.credly.com/badges/73244529-d60a-463d-b86e-a3dd6086d612/"},
+          {"name": "Certificación de Líder Digital en la Nube", "issuer": "Google Cloud", "year": "2024", "link": "https://www.credly.com/badges/cf4501f7-7726-47c3-8b38-d2795723894e/"},
+          {"name": "Científico de Datos Asociado Azure", "issuer": "Microsoft Azure", "year": "2023", "link": "https://learn.microsoft.com/en-us/users/guilhermeviegas-1359/credentials/ee569343bb2538dc?ref=https%3A%2F%2Fwww.linkedin.com%2F"}
         ],
         "awards": [
-          {"name": "Mejor Innovación Geoespacial", "event": "Premios GeoTech", "year": "2024"},
-          {"name": "Premio a la Excelencia en Investigación", "event": "Simposio Universitario", "year": "2022"}
+          {"name": "Beca por mérito para el módulo de tesis de maestría", "event": "Maestría en Tecnologías Geoespaciales", "year": "2025"}
         ]
       },
       "publications": {
         "title": "Publicaciones",
         "items": [
-          {"title": "Análisis Espacial de la Expansión Urbana", "subtitle": "Revista de GIS, 2023", "link": "https://example.com/paper1"},
-          {"title": "Geo-Flutter: Mapeando el Futuro", "subtitle": "Conferencia Tecnológica, 2024", "link": "https://example.com/paper2"},
-          {"title": "Resiliencia Climática en Zonas Costeras", "subtitle": "Revisión de Ciencias Ambientales, 2022", "link": "https://example.com/paper3"},
-          {"title": "Tendencias Geoespaciales en 2025", "subtitle": "Revista GeoTech, 2025", "link": "https://example.com/paper4"},
-          {"title": "Aprendizaje Automático en GIS", "subtitle": "Simposio de Ciencia de Datos, 2024", "link": "https://example.com/paper5"},
-          {"title": "Mapeo de Islas de Calor Urbano", "subtitle": "Investigación Climática, 2023", "link": "https://example.com/paper6"}
+          {"title": "Complejidad de exportación, complejidad industrial y crecimiento económico regional en Brasil", "subtitle": "", "link": "https://econpapers.repec.org/paper/arxpapers/2312.07469.htm"},
+          {"title": "Educación Superior, Complejidad Económica y Derrames de Conocimiento en las Microrregiones de Brasil.", "subtitle": "Un Enfoque de Regresión Ponderada Geográficamente", "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4549754"},           
+          {"title": "Notas sobre los Microdatos del Censo:", "subtitle": "Extracción, Transformación y Carga con Bash, PySpark y Almacenamiento en la Nube", "link": "https://medium.com/@guilhermeviegas/observa%C3%A7%C3%B5es-sobre-os-microdados-do-censo-extra%C3%A7%C3%A3o-transforma%C3%A7%C3%A3o-e-carregamento-com-bash-pyspark-f895b2ee739d"},
+          {"title": "Normalización Geográfica:", "subtitle": "¿Qué es y cuáles son sus implicaciones?", "link": "https://aquare.la/normalizacao-geografica/"},
+          {"title": "Neutralidad del Dinero en la Era Covid-19:", "subtitle": "Un Análisis Animado con R", "link": "https://medium.com/@guilhermeviegas/neutralidade-da-moeda-na-era-covid19-uma-an%C3%A1lise-animada-atrav%C3%A9s-do-r-b79cc0f3ee98"},
+          {"title": "Observatorio Socioeconómico de Santa Catarina", "subtitle": "OSESC", "link": "https://drive.google.com/file/d/1dat0aqaCNWdex1HIRWemxf7r9SH7U57D/view"},
+          {"title": " ", "subtitle": " ", "link": " "}
         ]
       },
       "projects": {
         "title": "Proyectos",
         "items": [
-          {"name": "GeoTracker", "description": "Seguimiento de ubicación en tiempo real con geovallas y análisis.", "tech": "Flutter, Firebase, Google Maps", "image": "assets/images/geotracker.png"},
-          {"name": "CityPulse", "description": "Tablero dinámico de datos urbanos con actualizaciones en tiempo real.", "tech": "Flutter Web, D3.js, PostgreSQL", "image": "assets/images/citypulse.png"},
-          {"name": "EcoMap", "description": "Monitoreo ambiental en vivo con integración de IoT.", "tech": "Flutter, IoT, AWS", "image": "assets/images/ecomap.png"},
-          {"name": "FloodPredict", "description": "Herramienta de pronóstico de riesgos de inundación impulsada por IA.", "tech": "Python, Flutter, TensorFlow", "image": "assets/images/floodpredict.png"},
-          {"name": "SkyView", "description": "Plataforma de análisis de imágenes satelitales.", "tech": "Flutter, Python, Google Earth Engine", "image": "assets/images/skyview.png"}
+          {"name": "Wilhelm, tu Profesor Artificial de Econometría", "description": "Libro digital para enseñar Econometría con el apoyo de un Agente de IA, Wilhelm, que ayuda al usuario a aprovechar al máximo las clases.", "tech": "GCP, R, Python, SQL", "image": "assets/images/wilhelmRobotProfessor.jpg"},
+          {"name": "BRvectors", "description": "Un paquete R para acceder a datos de polígonos brasileños en varias granularidades espaciales, así como métodos para Análisis Exploratorio de Datos Espaciales.", "tech": "R, Rstudio, Posit, Brasil, Polígono, IBGE, SHP, GeoParquet", "image": "assets/images/BRvectors.jpg"},
+          {"name": "AzureVM4Nomads", "description": "Script de automatización Terraform para el despliegue de Máquinas Virtuales Azure a escala.", "tech": "Terraform, Azure, Computación en la Nube", "image": "assets/images/digitalNomad.jpg"},
+          {"name": "¿Cuánto vale esta mansión?", "description": "Pronóstico de datos espaciales para estimar el precio de una casa - supuestamente - sobrevalorada comprada por un político.", "tech": "Python, SQL", "image": "assets/images/mansion.jpg"},
+          {"name": "Motion Snitcher", "description": "Código Bash y Python para que un Raspberry Pi envíe mensajes cuando se detecta movimiento.", "tech": "Bash, Python, IoT, RaspberryPi", "image": "assets/images/raspberryPI.jpg"},
+          {"name": "Equanimy Systems", "description": "Un sistema de IA para asignar recursos de manera eficiente y equitativa en un grupo.", "tech": "Bash, Python, IoT, RaspberryPi", "image": "assets/images/dawnofacity.jpg"}
         ]
       },
       "blog": {
         "title": "Blog",
         "posts": [
-          {"title": "¿Por qué Flutter para Apps Geo?", "snippet": "Desentrañando el potencial geoespacial de Flutter.", "date": "Ene 2025", "link": "https://example.com/blog1"},
-          {"title": "Mapeando Mañana con Datos", "snippet": "Tendencias emergentes en tecnología geoespacial.", "date": "Feb 2025", "link": "https://example.com/blog2"},
-          {"title": "El Día a Día de un Dev Geo", "snippet": "Secretos de mi flujo de trabajo y herramientas.", "date": "Dic 2024", "link": "https://example.com/blog3"},
-          {"title": "GIS Abierto Desatado", "snippet": "Poder del mapeo de código abierto.", "date": "Nov 2024", "link": "https://example.com/blog4"},
-          {"title": "IA y Geografía", "snippet": "Cómo el ML transforma GIS.", "date": "Oct 2024", "link": "https://example.com/blog5"},
-          {"title": "El Arte de la Visualización de Datos", "snippet": "Creando visuales geoespaciales impactantes.", "date": "Sep 2024", "link": "https://example.com/blog6"}
+          {"title": "Notas sobre los Microdatos del Censo: Extracción, Transformación y Carga con Bash, PySpark y Almacenamiento en la Nube", "snippet": "abc", "date": "Sep 2022", "link": "https://medium.com/@guilhermeviegas/observa%C3%A7%C3%B5es-sobre-os-microdados-do-censo-extra%C3%A7%C3%A3o-transforma%C3%A7%C3%A3o-e-carregamento-com-bash-pyspark-f895b2ee739d"},
+          {"title": "Normalización Geográfica: ¿Qué es y cuáles son sus implicaciones?", "snippet": "abc", "date": "Nov 2020", "link": "https://aquare.la/normalizacao-geografica/"},
+          {"title": "Neutralidad del Dinero en la Era Covid-19: Un Análisis Animado con R", "snippet": "abc", "date": "Ene 2021", "link": "https://medium.com/@guilhermeviegas/neutralidade-da-moeda-na-era-covid19-uma-an%C3%A1lise-animada-atrav%C3%A9s-do-r-b79cc0f3ee98"},          
+          {"title": "Bolg1", "snippet": "abc", "date": "Dic 2020", "link": "https://example.com/blog3"},
+          {"title": "Bolg2", "snippet": "abc", "date": "Nov 2020", "link": "https://example.com/blog4"},
+          {"title": "Bolg3", "snippet": "abc", "date": "Oct 2020", "link": "https://example.com/blog5"},
+          {"title": "Bolg4", "snippet": "abc", "date": "Sep 2020", "link": "https://example.com/blog6"}
         ]
       },
       "geolayers": {
         "title": "GeoCapas",
         "description": "Obras maestras geoespaciales en capas que descubren patrones ocultos.",
         "layers": [
-          {"name": "Densidad Poblacional", "detail": "Mapa de calor de poblaciones urbanas.", "icon": "people"},
-          {"name": "Patrones de Uso de Suelo", "detail": "Categorización de paisajes urbanos.", "icon": "terrain"},
+          {"name": "Principales ciudades que he visitado", "detail": "Puntos en el mapa sobre las principales ciudades que he visitado alrededor del mundo.", "icon": "people"},
+          {"name": "Patrones de Uso del Suelo", "detail": "Categorización de paisajes urbanos.", "icon": "terrain"},
           {"name": "Zonas Climáticas", "detail": "Mapeo de cambios de temperatura.", "icon": "cloud"},
-          {"name": "Flujo de Tráfico", "detail": "Análisis de tráfico urbano en tiempo real.", "icon": "traffic"}
+          {"name": "Flujo de Tráfico", "detail": "Análisis de tráfico urbano en tiempo real.", "icon": "traffic"},
+          {"name": "Mis Restaurantes Favoritos", "detail": "Puntos en el mapa sobre mis restaurantes favoritos alrededor del mundo.", "icon": "thumb_up"}
         ]
       },
       "discovery_search": {
-        "title": "Búsqueda de Descubrimiento",
+        "title": "Búsqueda Generativa de Descubrimiento",
         "subtabs": {
           "gwr_discovery": {
             "title": "Descubrimiento GWR",
-            "description": "Regresión Ponderada Geográficamente para conocimientos espaciales.",
-            "example": "Analicé precios de viviendas en regiones.",
-            "image": "assets/images/gwr.png",
-            "configId": "830bbc04-78f0-4afd-8c6a-fd7effaf424d"
+            "description": "Este motor se especializa en explorar las variaciones y similitudes entre diferentes Modelos Ponderados Geográficamente (GWR, MixedGWR, MultiscaleGWR, etc.), ayudando a los investigadores a analizar técnicas de regresión espacial.",
+            "example": "Diferencia entre GWR y MixedGWR.",
+            "image": "assets/images/gwrSearchEngine.jpg",
+            "configId": "17a54e06-27f5-49e7-9bea-6f1d16bf6355"
           },
           "ms_thesis_discovery": {
             "title": "Descubrimiento de Tesis de Maestría",
-            "description": "Patrones climáticos espacio-temporales.",
-            "example": "Modelo predictivo de lluvias.",
-            "image": "assets/images/thesis.png",
-            "configId": "60361247-40a2-4392-a871-238bf92a3ac9"
+            "description": "Este motor de búsqueda está diseñado para asistir en la descubrimiento, organización y análisis de recursos académicos relacionados con la tesis de Guilherme sobre 'migración debido a oportunidades económicas'.",
+            "example": "El libro El Objeto Sublime de la Ideología, de Slavoj Zizek.",
+            "image": "assets/images/migSearchEngine.png",
+            "configId": "d12a6e07-8f62-4135-94b9-97279b7ad9f7"
           },
           "virtual_guigo": {
             "title": "Guigo Virtual",
-            "description": "Un avatar digital de mi viaje geoespacial.",
-            "example": "Tour interactivo de mapas 3D.",
-            "image": "assets/images/virtualguigo.png",
-            "configId": "830bbc04-78f0-4afd-8c6a-fd7effaf424d"
+            "description": "Este es un asistente de búsqueda de IA personalizado diseñado para actuar como una versión virtual de Guilherme, proporcionando conocimientos y asistencia basados en su experiencia.",
+            "example": "¿Qué diría Guilherme sobre eso?",
+            "image": "assets/images/virtualGuigo.png",
+            "configId": "df7e1970-11ba-41a3-8bbb-f1e235acaba1"
           }
         }
       },
       "contact": {
         "title": "Conéctate Conmigo",
-        "intro": "¿Tienes un proyecto, pregunta o solo quieres charlar? ¡Contáctame!",
+        "intro": "¿Tienes un proyecto, una pregunta o solo quieres charlar? ¡Contáctame!",
         "email_label": "Correo Electrónico",
         "name_label": "Nombre",
         "message_label": "Mensaje",
         "send_button": "Enviar Mensaje",
         "social": [
-          {"platform": "LinkedIn", "link": "https://linkedin.com/in/yourprofile"},
-          {"platform": "GitHub", "link": "https://github.com/yourusername"},
+          {"platform": "LinkedIn", "link": "https://www.linkedin.com/in/guilherme-viegas-1b5b0495/"},
+          {"platform": "GitHub", "link": "https://github.com/Gui-go"},
           {"platform": "Twitter", "link": "https://twitter.com/yourhandle"},
-          {"platform": "Portafolio", "link": "https://yourwebsite.com"}
+          {"platform": "Portafolio", "link": "guigo.dev.br"}
         ],
-        "location": "Ubicado en: Algún Lugar, Tierra",
+        "location": "Ubicado en: Algún lugar, Tierra",
         "availability": "Abierto a oportunidades de freelance y colaboración."
+      }
+    },
+    "de": {
+      "app_title": "Guilhermes Portfolio",
+      "nav": {
+        "home": "Startseite",
+        "cv": "Lebenslauf",
+        "publications": "Publikationen",
+        "projects": "Projekte",
+        "blog": "Blog",
+        "geolayers": "GeoSchichten",
+        "discovery_search": "Entdeckungssuche",
+        "contact": "Kontakt"
+      },
+      "home": {
+        "welcome": "Willkommen zu Guilhermes Portfolio",
+        "intro": "Ich bin Guilherme, ein Datenwissenschaftler|Ingenieur, der Technologie und Daten zu außergewöhnlichen Lösungen verschmilzt.",
+        "quote": "Zahlen flüstern die Wahrheit; meine Suche gilt den verborgenen Mustern, die unsere Welt formen.",
+        "button": "Lass uns gemeinsam Wert schaffen!",
+        "mission": "Meine Mission ist es, rohe Daten in bedeutungsvolle Erzählungen zu verwandeln, die Verständnis und Wirkung fördern.",
+        "passion": "Was mich begeistert, ist die Fähigkeit, komplexe Datensätze in reale Erkenntnisse zu verwandeln, die zählen.",
+        "stats": [
+          {"label": "Gestartete Projekte", "value": "60+"},
+          {"label": "Verfasste Publikationen", "value": "3"},
+          {"label": "Jahre der Innovation", "value": "6"},
+          {"label": "Besuchte Städte", "value": "150+"}
+        ]
+      },
+      "cv": {
+        "title": "Lebenslauf",
+        "summary": "Ein visionärer Datenprofi, der Kreativität mit analytischer Präzision verbindet.",
+        "education": [
+          {"degree": "M.Sc. in Geospatialen Technologien", "institution": "Universität Münster (WWU)", "year": "2023-2025", "details": "Thesis: Migrationsdynamiken in Brasilien: Eine räumliche ökonometrische Analyse"},
+          {"degree": "B.Sc. in Wirtschaftswissenschaften", "institution": "Föderale Universität Santa Catarina (UFSC)", "year": "2018-2022", "details": "Thesis: Hochschulbildung, wirtschaftliche Komplexität und Wissensspillover in den Mikroregionen Brasiliens. Ein geografisch gewichteter Regressionsansatz"}
+        ],
+        "experience": [
+          {"role": "Cloud-Daten-Ingenieur", "company": "CloudPilots", "duration": "2024 - 2025", "description": "Entwicklung von Datenpipelines, die Datenqualität und Verfügbarkeit sicherstellen, Beratung für externe Kunden und Experimente mit KI."},
+          {"role": "Datenberater", "company": "Inetum", "duration": "2022 - 2024", "description": "Cloud- und Datenberatung, hauptsächlich mit Azure, GCP, Terraform, Python und Bash."},
+          {"role": "Zensusagent für Verwaltung und Informatik", "company": "IBGE (Brasilianisches Institut für Geografie und Statistik)", "duration": "Aug 2022 - Okt 2022", "description": "Feldarbeit für die brasilianische Volkszählung 2022. Management von Personalressourcen und Schulung neuer Zensusagenten. Zuweisung von Ausrüstung und Materialien an die Feldagenten."},
+          {"role": "Angewandter Datenwissenschaftler", "company": "4intelligence", "duration": "2021 - 2022", "description": "Entwicklung von Pipelines für Zeitreihenprognosen mit Bash, Python, R und Azure."},
+          {"role": "Junior-Datenwissenschaftler", "company": "Aquarela Advanced Analytics", "duration": "2019 - 2021", "description": "Datenwissenschaftsberatung in verschiedenen Projekten mit R, Python, Docker, JS, SQL, Postgres, GCP, AWS, Terraform."}
+        ],
+        "skills": ["GCP", "Bash", "Terraform", "Python", "R", "Docker", "Azure", "AWS", "KI-Agenten", "Web Scraping", "API", "Git", "QGIS", "Flutter", "Dart", "Datenvisualisierung", "Maschinelles Lernen", "SQL", "Fernerkundung", "JavaScript", "PostgreSQL", "MongoDB"],
+        "cv_download": "Lebenslauf herunterladen",
+        "certifications": [
+          {"name": "Associate Data Practitioner Zertifizierung", "issuer": "Google Cloud", "year": "2024", "link": "https://www.credly.com/badges/73244529-d60a-463d-b86e-a3dd6086d612/"},
+          {"name": "Cloud Digital Leader Zertifizierung", "issuer": "Google Cloud", "year": "2024", "link": "https://www.credly.com/badges/cf4501f7-7726-47c3-8b38-d2795723894e/"},
+          {"name": "Azure Data Scientist Associate", "issuer": "Microsoft Azure", "year": "2023", "link": "https://learn.microsoft.com/en-us/users/guilhermeviegas-1359/credentials/ee569343bb2538dc?ref=https%3A%2F%2Fwww.linkedin.com%2F"}
+        ],
+        "awards": [
+          {"name": "Leistungsstipendium für das Modul Masterarbeit", "event": "Master in Geospatialen Technologien", "year": "2025"}
+        ]
+      },
+      "publications": {
+        "title": "Publikationen",
+        "items": [
+          {"title": "Exportkomplexität, industrielle Komplexität und regionales Wirtschaftswachstum in Brasilien", "subtitle": "", "link": "https://econpapers.repec.org/paper/arxpapers/2312.07469.htm"},
+          {"title": "Hochschulbildung, wirtschaftliche Komplexität und Wissensspillover in den Mikroregionen Brasiliens.", "subtitle": "Ein geografisch gewichteter Regressionsansatz", "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4549754"},           
+          {"title": "Notizen zu den Zensus-Mikrodaten:", "subtitle": "Extrahieren, Transformieren und Laden mit Bash, PySpark und Cloud-Speicher", "link": "https://medium.com/@guilhermeviegas/observa%C3%A7%C3%B5es-sobre-os-microdados-do-censo-extra%C3%A7%C3%A3o-transforma%C3%A7%C3%A3o-e-carregamento-com-bash-pyspark-f895b2ee739d"},
+          {"title": "Geografische Normalisierung:", "subtitle": "Was ist das und welche Auswirkungen hat sie?", "link": "https://aquare.la/normalizacao-geografica/"},
+          {"title": "Geldneutralität in der Covid-19-Ära:", "subtitle": "Eine animierte Analyse mit R", "link": "https://medium.com/@guilhermeviegas/neutralidade-da-moeda-na-era-covid19-uma-an%C3%A1lise-animada-atrav%C3%A9s-do-r-b79cc0f3ee98"},
+          {"title": "Sozioökonomisches Observatorium von Santa Catarina", "subtitle": "OSESC", "link": "https://drive.google.com/file/d/1dat0aqaCNWdex1HIRWemxf7r9SH7U57D/view"},
+          {"title": " ", "subtitle": " ", "link": " "}
+        ]
+      },
+      "projects": {
+        "title": "Projekte",
+        "items": [
+          {"name": "Wilhelm, dein künstlicher Ökonometrie-Professor", "description": "Digitales Buch zum Lehren von Ökonometrie mit Unterstützung eines KI-Agenten, Wilhelm, der dem Nutzer hilft, das Beste aus den Kursen herauszuholen.", "tech": "GCP, R, Python, SQL", "image": "assets/images/wilhelmRobotProfessor.jpg"},
+          {"name": "BRvectors", "description": "Ein R-Paket, um Zugang zu brasilianischen Polygondaten in verschiedenen räumlichen Granularitäten zu erhalten, sowie Methoden für explorative räumliche Datenanalyse.", "tech": "R, Rstudio, Posit, Brasilien, Polygon, IBGE, SHP, GeoParquet", "image": "assets/images/BRvectors.jpg"},
+          {"name": "AzureVM4Nomads", "description": "Terraform-Automatisierungsskript für die Bereitstellung von Azure Virtual Machines im großen Maßstab.", "tech": "Terraform, Azure, Cloud Computing", "image": "assets/images/digitalNomad.jpg"},
+          {"name": "Wie viel ist dieses Herrenhaus wert?", "description": "Räumliche Datenprognosen zur Schätzung des Preises eines - angeblich - überteuerten Hauses, das von einem Politiker gekauft wurde.", "tech": "Python, SQL", "image": "assets/images/mansion.jpg"},
+          {"name": "Motion Snitcher", "description": "Bash- und Python-Code für einen Raspberry Pi, um Nachrichten zu senden, wenn eine Bewegung erkannt wird.", "tech": "Bash, Python, IoT, RaspberryPi", "image": "assets/images/raspberryPI.jpg"},
+          {"name": "Equanimy Systems", "description": "Ein KI-System zur effizienten und gerechten Ressourcenzuweisung in einer Gruppe.", "tech": "Bash, Python, IoT, RaspberryPi", "image": "assets/images/dawnofacity.jpg"}
+        ]
+      },
+      "blog": {
+        "title": "Blog",
+        "posts": [
+          {"title": "Notizen zu den Zensus-Mikrodaten: Extrahieren, Transformieren und Laden mit Bash, PySpark und Cloud-Speicher", "snippet": "abc", "date": "Sep 2022", "link": "https://medium.com/@guilhermeviegas/observa%C3%A7%C3%B5es-sobre-os-microdados-do-censo-extra%C3%A7%C3%A3o-transforma%C3%A7%C3%A3o-e-carregamento-com-bash-pyspark-f895b2ee739d"},
+          {"title": "Geografische Normalisierung: Was ist das und welche Auswirkungen hat sie?", "snippet": "abc", "date": "Nov 2020", "link": "https://aquare.la/normalizacao-geografica/"},
+          {"title": "Geldneutralität in der Covid-19-Ära: Eine animierte Analyse mit R", "snippet": "abc", "date": "Jan 2021", "link": "https://medium.com/@guilhermeviegas/neutralidade-da-moeda-na-era-covid19-uma-an%C3%A1lise-animada-atrav%C3%A9s-do-r-b79cc0f3ee98"},          
+          {"title": "Bolg1", "snippet": "abc", "date": "Dez 2020", "link": "https://example.com/blog3"},
+          {"title": "Bolg2", "snippet": "abc", "date": "Nov 2020", "link": "https://example.com/blog4"},
+          {"title": "Bolg3", "snippet": "abc", "date": "Okt 2020", "link": "https://example.com/blog5"},
+          {"title": "Bolg4", "snippet": "abc", "date": "Sep 2020", "link": "https://example.com/blog6"}
+        ]
+      },
+      "geolayers": {
+        "title": "GeoSchichten",
+        "description": "Geschichtete geospatiale Meisterwerke, die verborgene Muster aufdecken.",
+        "layers": [
+          {"name": "Hauptstädte, die ich besucht habe", "detail": "Punkte auf der Karte über die Hauptstädte, die ich weltweit besucht habe.", "icon": "people"},
+          {"name": "Landnutzungsmuster", "detail": "Kategorisierung von Stadtlandschaften.", "icon": "terrain"},
+          {"name": "Klimazonen", "detail": "Kartierung von Temperaturveränderungen.", "icon": "cloud"},
+          {"name": "Verkehrsfluss", "detail": "Echtzeit-Analyse des städtischen Verkehrs.", "icon": "traffic"},
+          {"name": "Meine Lieblingsrestaurants", "detail": "Punkte auf der Karte über meine Lieblingsrestaurants weltweit.", "icon": "thumb_up"}
+        ]
+      },
+      "discovery_search": {
+        "title": "Generative Entdeckungssuche",
+        "subtabs": {
+          "gwr_discovery": {
+            "title": "GWR-Entdeckung",
+            "description": "Diese Suchmaschine spezialisiert sich darauf, die Unterschiede und Ähnlichkeiten zwischen verschiedenen geografisch gewichteten Modellen (GWR, MixedGWR, MultiscaleGWR usw.) zu erforschen und Forschern bei der Analyse räumlicher Regressionstechniken zu helfen.",
+            "example": "Unterschied zwischen GWR und MixedGWR.",
+            "image": "assets/images/gwrSearchEngine.jpg",
+            "configId": "17a54e06-27f5-49e7-9bea-6f1d16bf6355"
+          },
+          "ms_thesis_discovery": {
+            "title": "Masterarbeit-Entdeckung",
+            "description": "Diese Suchmaschine ist darauf ausgelegt, bei der Entdeckung, Organisation und Analyse akademischer Ressourcen zu Guilhermes Thesis über 'Migration aufgrund wirtschaftlicher Chancen' zu unterstützen.",
+            "example": "Das Buch Das Erhabene Objekt der Ideologie von Slavoj Zizek.",
+            "image": "assets/images/migSearchEngine.png",
+            "configId": "d12a6e07-8f62-4135-94b9-97279b7ad9f7"
+          },
+          "virtual_guigo": {
+            "title": "Virtueller Guigo",
+            "description": "Dies ist ein personalisierter KI-Suchassistent, der als virtuelle Version von Guilherme agiert und Einblicke und Unterstützung basierend auf seiner Expertise bietet.",
+            "example": "Was würde Guilherme dazu sagen?",
+            "image": "assets/images/virtualGuigo.png",
+            "configId": "df7e1970-11ba-41a3-8bbb-f1e235acaba1"
+          }
+        }
+      },
+      "contact": {
+        "title": "Kontaktiere mich",
+        "intro": "Hast du ein Projekt, eine Frage oder möchtest einfach nur chatten? Melde dich!",
+        "email_label": "E-Mail",
+        "name_label": "Name",
+        "message_label": "Nachricht",
+        "send_button": "Nachricht senden",
+        "social": [
+          {"platform": "LinkedIn", "link": "https://www.linkedin.com/in/guilherme-viegas-1b5b0495/"},
+          {"platform": "GitHub", "link": "https://github.com/Gui-go"},
+          {"platform": "Twitter", "link": "https://twitter.com/yourhandle"},
+          {"platform": "Portfolio", "link": "guigo.dev.br"}
+        ],
+        "location": "Ansässig in: Irgendwo, Erde",
+        "availability": "Offen für Freelance- und Kooperationsmöglichkeiten."
       }
     }
   }
