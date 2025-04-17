@@ -110,7 +110,6 @@ class _PortfolioHomePageState extends State<PortfolioHomePage> {
       CVPage(content: _content[_currentLang]['cv']),
       PublicationsPage(content: _content[_currentLang]['publications']),
       ProjectsPage(content: _content[_currentLang]['projects']),
-      BlogPage(content: _content[_currentLang]['blog']),
       GeoLayersPage(content: _content[_currentLang]['geolayers']),
       DiscoverySearchPage(
         content: _content[_currentLang]['discovery_search'],
@@ -406,35 +405,6 @@ class ProjectsPage extends StatelessWidget {
   }
 }
 
-class BlogPage extends StatelessWidget {
-  final Map<String, dynamic> content;
-  const BlogPage({super.key, required this.content});
-
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(50),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
-          Text(content['title'], style: Theme.of(context).textTheme.headlineMedium),
-          const SizedBox(height: 25),
-          ...content['posts'].map<Widget>((post) => Card(
-                child: ListTile(
-                  leading: const Icon(Icons.edit, color: Colors.indigo),
-                  title: Text(post['title'], style: Theme.of(context).textTheme.labelLarge),
-                  subtitle: Text('${post['snippet']} - ${post['date']}'),
-                  trailing: IconButton(
-                    icon: const Icon(Icons.read_more, color: Colors.indigo),
-                    onPressed: () => _launchURL(post['link']),
-                  ),
-                ),
-              )).toList(),
-        ],
-      ),
-    );
-  }
-}
 
 class GeoLayersPage extends StatelessWidget {
   final Map<String, dynamic> content;
@@ -662,10 +632,6 @@ class ContactPage extends StatefulWidget {
 }
 
 class _ContactPageState extends State<ContactPage> {
-  final _formKey = GlobalKey<FormState>();
-  final _nameController = TextEditingController();
-  final _emailController = TextEditingController();
-  final _messageController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
@@ -678,55 +644,6 @@ class _ContactPageState extends State<ContactPage> {
           const SizedBox(height: 25),
           Text(widget.content['intro'], style: const TextStyle(fontSize: 18), textAlign: TextAlign.center),
           const SizedBox(height: 50),
-          Form(
-            key: _formKey,
-            child: Column(
-              children: [
-                TextFormField(
-                  controller: _nameController,
-                  decoration: InputDecoration(
-                    labelText: widget.content['name_label'],
-                    border: OutlineInputBorder(borderRadius: BorderRadius.circular(14)),
-                    prefixIcon: const Icon(Icons.person, color: Colors.indigo),
-                  ),
-                  validator: (value) => value!.isEmpty ? 'Please enter your name' : null,
-                ),
-                const SizedBox(height: 20),
-                TextFormField(
-                  controller: _emailController,
-                  decoration: InputDecoration(
-                    labelText: widget.content['email_label'],
-                    border: OutlineInputBorder(borderRadius: BorderRadius.circular(14)),
-                    prefixIcon: const Icon(Icons.email, color: Colors.indigo),
-                  ),
-                  validator: (value) => value!.isEmpty ? 'Please enter your email' : null,
-                ),
-                const SizedBox(height: 20),
-                TextFormField(
-                  controller: _messageController,
-                  decoration: InputDecoration(
-                    labelText: widget.content['message_label'],
-                    border: OutlineInputBorder(borderRadius: BorderRadius.circular(14)),
-                    prefixIcon: const Icon(Icons.message, color: Colors.indigo),
-                  ),
-                  maxLines: 6,
-                  validator: (value) => value!.isEmpty ? 'Please enter a message' : null,
-                ),
-                const SizedBox(height: 30),
-                ElevatedButton(
-                  onPressed: () {
-                    if (_formKey.currentState!.validate()) {
-                      ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Message Sent! (Demo)')));
-                      _nameController.clear();
-                      _emailController.clear();
-                      _messageController.clear();
-                    }
-                  },
-                  child: Text(widget.content['send_button']),
-                ),
-              ],
-            ),
-          ),
           const SizedBox(height: 50),
           Text(widget.content['location'], style: const TextStyle(fontSize: 16, color: Colors.grey)),
           const SizedBox(height: 10),

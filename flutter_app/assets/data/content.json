@@ -7,7 +7,6 @@
         "cv": "Curriculum Vitae",
         "publications": "Publications",
         "projects": "Projects",
-        "blog": "Blog",
         "geolayers": "GeoLayers",
         "discovery_search": "Discovery Search",
         "contact": "Contact"
@@ -28,7 +27,7 @@
       },
       "cv": {
         "title": "Curriculum Vitae",
-        "summary": "A visionary Data Professional, blending creativity with analytical precision.",
+        "summary": " ",
         "education": [
           {"degree": "M.S. in Geospatial Technologies", "institution": "Münster University (WWU)", "year": "2023-2025", "details": "Thesis: Migration Dynamics in Brazil: A Spatial Econometric Analysis"},
           {"degree": "B.S. in Economic Sciences", "institution": "Federal University of Santa Catarina (UFSC)", "year": "2018-2022", "details": "Thesis: Higher Education, Economic Complexity, and Knowledge Spillovers Across Micro-Regions of Brazil. A Geographically Weighted Regression Approach"}
@@ -38,9 +37,9 @@
           {"role": "Data Consultant", "company": "Inetum", "duration": "2022 - 2024", "description": "Cloud and Data consultancy, with Azure, GCP, Terraform, Python, and Bash, mostly."},
           {"role": "Census Agent for Admnistration and informatics", "company": "IBGE (Brazilian Institute of Geography and Statistics)", "duration": "2022 Aug - 2022 Oct", "description": "Field research for the 2022 Brazilian Census. Management of human resources and training of new Field Census Agents. Allocation of equipment and materials to the field agents."},
           {"role": "Applied Data Scientist", "company": "4intelligence", "duration": "2021 - 2022", "description": "Development of pipelines for time series forecasting, with Bash, Python, R, and Azure."},
-          {"role": "Junior Data Scientist", "company": "Aquarela Advanced Analytics", "duration": "2019 - 2021", "description": "Data Science consultancy in various projects, using R, Python, Docker, JS, SQL, Postgres, GCP, AWS, Terraform."}
+          {"role": "Junior Data Scientist", "company": "Aquarela Advanced Analytics", "duration": "2019 - 2021", "description": "Data Science consultancy in various projects, using R, Python, Docker, JS, CSS, SQL, Postgres, MongoDB, GCP, AWS, Terraform."}
         ],
-        "skills": ["GCP", "Bash", "Terraform", "Python", "R", "Docker", "Azure", "AWS", "AI Agents", "Web Scraping", "API", "Git", "QGIS", "Flutter", "Dart", "Data Visualization", "Machine Learning", "SQL", "Remote Sensing", "JavaScript", "PostgreSQL", "MongoDB"],
+        "skills": ["GCP", "Bash", "Terraform", "Python", "R", "Docker", "Azure", "AWS", "AI Agents", "Web Scraping", "API", "Git", "QGIS", "Flutter", "Dart", "Data Visualization", "Machine Learning", "SQL", "Remote Sensing", "JavaScript", "PostgreSQL", "MongoDB", "Cloud Engineering", "DataBase Administration", "Software Architecture", "Data Engineering", "Data Science", "Data Analysis", "Data Mining", "Data Warehousing", "Data Modeling", "Data Governance", "Data Quality", "Data Integration", "Data Visualization", "Business Intelligence", "Machine Learning", "Deep Learning", "Natural Language Processing", "Computer Vision", "Reinforcement Learning", "Unsupervised Learning", "Supervised Learning", "Time Series Analysis", "Statistical Analysis", "Predictive Modeling", "Big Data Technologies", "Cloud Computing", "Distributed Computing", "Data Lakes"],
         "cv_download": "Download CV",
         "certifications": [
           {"name": "Associate Data Practitioner Certification", "issuer": "Google Cloud", "year": "2024", "link": "https://www.credly.com/badges/73244529-d60a-463d-b86e-a3dd6086d612/"},
@@ -54,13 +53,13 @@
       "publications": {
         "title": "Publications",
         "items": [
-          {"title": "Export complexity, industrial complexity and regional economic growth in Brazil", "subtitle": "", "link": "https://econpapers.repec.org/paper/arxpapers/2312.07469.htm"},
-          {"title": "Higher Education, Economic Complexity, and Knowledge Spillovers Across Micro-Regions of Brazil.", "subtitle": "A Geographically Weighted Regression Approach", "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4549754"},           
-          {"title": "Notes on the Census Microdata:", "subtitle": "Extracting, Transforming, and Loading with Bash, PySpark, and Cloud Storage", "link": "https://medium.com/@guilhermeviegas/observa%C3%A7%C3%B5es-sobre-os-microdados-do-censo-extra%C3%A7%C3%A3o-transforma%C3%A7%C3%A3o-e-carregamento-com-bash-pyspark-f895b2ee739d"},
-          {"title": "Geographic Normalization:", "subtitle": "What is it and what are its implications?", "link": "https://aquare.la/normalizacao-geografica/"},
-          {"title": "Money Neutrality in the Covid19 Era:", "subtitle": "An Animated Analysis with R", "link": "https://medium.com/@guilhermeviegas/neutralidade-da-moeda-na-era-covid19-uma-an%C3%A1lise-animada-atrav%C3%A9s-do-r-b79cc0f3ee98"},
-          {"title": "Socioeconomic Observatory of Santa Catarina", "subtitle": "OSESC", "link": "https://drive.google.com/file/d/1dat0aqaCNWdex1HIRWemxf7r9SH7U57D/view"},
-          {"title": " ", "subtitle": " ", "link": " "}
+          {"title": "Migration Dynamics in Brazil", "subtitle": "A Spatial Econometric Analysis \nMasters thesis' awarded merit-based fellowship in the Erasmus Mundus GeoSpatial Technologies program 2025\nR, Python, Terraform, Docker, GCP, BigQuery, DataForm, SQL, SQLX, JS, GWR, MGWR", "link": "https://drive.google.com/file/d/1lFR7ozEWcbUpphhUKJu1Zs2P0hnMrF1S/view?usp=sharing"},
+          {"title": "Export complexity, industrial complexity and regional economic growth in Brazil", "subtitle": "A comparision of various complexity (ECI) metrics with Brazilian exports and employment data \nPython, R, Shiny", "link": "https://econpapers.repec.org/paper/arxpapers/2312.07469.htm"},
+          {"title": "Higher Education, Economic Complexity, and Knowledge Spillovers Across Micro-Regions of Brazil", "subtitle": "A Geographically Weighted Regression Approach \nBachelor thesis for the degree of Economic Sciences Bachelor \nR, Python, GWR", "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4549754"},           
+          {"title": "Notes on the Census Microdata", "subtitle": "Extracting, Transforming, and Loading with Bash, PySpark, and Cloud Storage \nPython, PySpark, HDFS, Big Data, Micro Data, Census", "link": "https://medium.com/@guilhermeviegas/observa%C3%A7%C3%B5es-sobre-os-microdados-do-censo-extra%C3%A7%C3%A3o-transforma%C3%A7%C3%A3o-e-carregamento-com-bash-pyspark-f895b2ee739d"},
+          {"title": "Geographic Normalization", "subtitle": "What is it and what are its implications? \nR, Spatial Statistics, Data Visualization", "link": "https://aquare.la/normalizacao-geografica/"},
+          {"title": "Money Neutrality in the Covid19 Era", "subtitle": "An Animated Analysis with R \nBased on economic models, the idea of money neutrality is explained in an animated way. Guilherme rightly predicts inflation in the medium term, as expantionary monetary policies were applied to mitigate the Covid effects. In the long term, 'inflation is nothing but a monetary phenomena'", "link": "https://medium.com/@guilhermeviegas/neutralidade-da-moeda-na-era-covid19-uma-an%C3%A1lise-animada-atrav%C3%A9s-do-r-b79cc0f3ee98"},
+          {"title": "Socioeconomic Observatory of Santa Catarina", "subtitle": "OSESC \nA dashboard to analyse and forecast time series of Brazilian socio-economic data, with focus on the state of Santa Catarina", "link": "https://drive.google.com/file/d/1dat0aqaCNWdex1HIRWemxf7r9SH7U57D/view"}
         ]
       },
       "projects": {
@@ -72,18 +71,6 @@
           {"name": "How much is this mansion worth?", "description": "Spatial data forecasting to estimate the price of a - supposedly - overpriced house bought by a politician", "tech": "Python, SQL", "image": "assets/images/mansion.jpg"},
           {"name": "Motion Snitcher", "description": "Bash and Python code for a Raspberry Pi send messages when a motion is detected.", "tech": "Bash, Python, IoT, RaspberryPi", "image": "assets/images/raspberryPI.jpg"},
           {"name": "Equanimy Systems", "description": "An AI system to efficiently and equinamly allocate resources in a group.", "tech": "Bash, Python, IoT, RaspberryPi", "image": "assets/images/dawnofacity.jpg"}
-        ]
-      },
-      "blog": {
-        "title": "Blog",
-        "posts": [
-          {"title": "Notes on the Census Microdata: Extracting, Transforming, and Loading with Bash, PySpark, and Cloud Storage", "snippet": "abc", "date": "Sep 2022", "link": "https://medium.com/@guilhermeviegas/observa%C3%A7%C3%B5es-sobre-os-microdados-do-censo-extra%C3%A7%C3%A3o-transforma%C3%A7%C3%A3o-e-carregamento-com-bash-pyspark-f895b2ee739d"},
-          {"title": "Geographic normalization: What is it and what are its implications?", "snippet": "abc", "date": "Nov 2020", "link": "https://aquare.la/normalizacao-geografica/"},
-          {"title": "Money Neutrality in the Covid19 Era: An Animated Analysis with R", "snippet": "abc", "date": "Jan 2021", "link": "https://medium.com/@guilhermeviegas/neutralidade-da-moeda-na-era-covid19-uma-an%C3%A1lise-animada-atrav%C3%A9s-do-r-b79cc0f3ee98"},          
-          {"title": "Bolg1", "snippet": "abc", "date": "Dec 2020", "link": "https://example.com/blog3"},
-          {"title": "Bolg2", "snippet": "abc", "date": "Nov 2020", "link": "https://example.com/blog4"},
-          {"title": "Bolg3", "snippet": "abc", "date": "Oct 2020", "link": "https://example.com/blog5"},
-          {"title": "Bolg4", "snippet": "abc", "date": "Sep 2020", "link": "https://example.com/blog6"}
         ]
       },
       "geolayers": {
@@ -147,7 +134,6 @@
         "cv": "Currículo",
         "publications": "Publicações",
         "projects": "Projetos",
-        "blog": "Blog",
         "geolayers": "GeoCamadas",
         "discovery_search": "Busca de Descoberta",
         "contact": "Contato"
@@ -214,18 +200,6 @@
           {"name": "Equanimy Systems", "description": "Um sistema de IA para alocar recursos de forma eficiente e equânime em um grupo.", "tech": "Bash, Python, IoT, RaspberryPi", "image": "assets/images/dawnofacity.jpg"}
         ]
       },
-      "blog": {
-        "title": "Blog",
-        "posts": [
-          {"title": "Notas sobre os Microdados do Censo: Extração, Transformação e Carregamento com Bash, PySpark e Armazenamento na Nuvem", "snippet": "abc", "date": "Set 2022", "link": "https://medium.com/@guilhermeviegas/observa%C3%A7%C3%B5es-sobre-os-microdados-do-censo-extra%C3%A7%C3%A3o-transforma%C3%A7%C3%A3o-e-carregamento-com-bash-pyspark-f895b2ee739d"},
-          {"title": "Normalização Geográfica: O que é e quais são suas implicações?", "snippet": "abc", "date": "Nov 2020", "link": "https://aquare.la/normalizacao-geografica/"},
-          {"title": "Neutralidade do Dinheiro na Era Covid-19: Uma Análise Animada com R", "snippet": "abc", "date": "Jan 2021", "link": "https://medium.com/@guilhermeviegas/neutralidade-da-moeda-na-era-covid19-uma-an%C3%A1lise-animada-atrav%C3%A9s-do-r-b79cc0f3ee98"},          
-          {"title": "Bolg1", "snippet": "abc", "date": "Dez 2020", "link": "https://example.com/blog3"},
-          {"title": "Bolg2", "snippet": "abc", "date": "Nov 2020", "link": "https://example.com/blog4"},
-          {"title": "Bolg3", "snippet": "abc", "date": "Out 2020", "link": "https://example.com/blog5"},
-          {"title": "Bolg4", "snippet": "abc", "date": "Set 2020", "link": "https://example.com/blog6"}
-        ]
-      },
       "geolayers": {
         "title": "GeoCamadas",
         "description": "Obras-primas geoespaciais em camadas que revelam padrões ocultos.",
@@ -287,7 +261,6 @@
         "cv": "Currículum Vitae",
         "publications": "Publicaciones",
         "projects": "Proyectos",
-        "blog": "Blog",
         "geolayers": "GeoCapas",
         "discovery_search": "Búsqueda de Descubrimiento",
         "contact": "Contacto"
@@ -354,18 +327,6 @@
           {"name": "Equanimy Systems", "description": "Un sistema de IA para asignar recursos de manera eficiente y equitativa en un grupo.", "tech": "Bash, Python, IoT, RaspberryPi", "image": "assets/images/dawnofacity.jpg"}
         ]
       },
-      "blog": {
-        "title": "Blog",
-        "posts": [
-          {"title": "Notas sobre los Microdatos del Censo: Extracción, Transformación y Carga con Bash, PySpark y Almacenamiento en la Nube", "snippet": "abc", "date": "Sep 2022", "link": "https://medium.com/@guilhermeviegas/observa%C3%A7%C3%B5es-sobre-os-microdados-do-censo-extra%C3%A7%C3%A3o-transforma%C3%A7%C3%A3o-e-carregamento-com-bash-pyspark-f895b2ee739d"},
-          {"title": "Normalización Geográfica: ¿Qué es y cuáles son sus implicaciones?", "snippet": "abc", "date": "Nov 2020", "link": "https://aquare.la/normalizacao-geografica/"},
-          {"title": "Neutralidad del Dinero en la Era Covid-19: Un Análisis Animado con R", "snippet": "abc", "date": "Ene 2021", "link": "https://medium.com/@guilhermeviegas/neutralidade-da-moeda-na-era-covid19-uma-an%C3%A1lise-animada-atrav%C3%A9s-do-r-b79cc0f3ee98"},          
-          {"title": "Bolg1", "snippet": "abc", "date": "Dic 2020", "link": "https://example.com/blog3"},
-          {"title": "Bolg2", "snippet": "abc", "date": "Nov 2020", "link": "https://example.com/blog4"},
-          {"title": "Bolg3", "snippet": "abc", "date": "Oct 2020", "link": "https://example.com/blog5"},
-          {"title": "Bolg4", "snippet": "abc", "date": "Sep 2020", "link": "https://example.com/blog6"}
-        ]
-      },
       "geolayers": {
         "title": "GeoCapas",
         "description": "Obras maestras geoespaciales en capas que descubren patrones ocultos.",
@@ -427,7 +388,6 @@
         "cv": "Lebenslauf",
         "publications": "Publikationen",
         "projects": "Projekte",
-        "blog": "Blog",
         "geolayers": "GeoSchichten",
         "discovery_search": "Entdeckungssuche",
         "contact": "Kontakt"
@@ -492,18 +452,6 @@
           {"name": "Wie viel ist dieses Herrenhaus wert?", "description": "Räumliche Datenprognosen zur Schätzung des Preises eines - angeblich - überteuerten Hauses, das von einem Politiker gekauft wurde.", "tech": "Python, SQL", "image": "assets/images/mansion.jpg"},
           {"name": "Motion Snitcher", "description": "Bash- und Python-Code für einen Raspberry Pi, um Nachrichten zu senden, wenn eine Bewegung erkannt wird.", "tech": "Bash, Python, IoT, RaspberryPi", "image": "assets/images/raspberryPI.jpg"},
           {"name": "Equanimy Systems", "description": "Ein KI-System zur effizienten und gerechten Ressourcenzuweisung in einer Gruppe.", "tech": "Bash, Python, IoT, RaspberryPi", "image": "assets/images/dawnofacity.jpg"}
-        ]
-      },
-      "blog": {
-        "title": "Blog",
-        "posts": [
-          {"title": "Notizen zu den Zensus-Mikrodaten: Extrahieren, Transformieren und Laden mit Bash, PySpark und Cloud-Speicher", "snippet": "abc", "date": "Sep 2022", "link": "https://medium.com/@guilhermeviegas/observa%C3%A7%C3%B5es-sobre-os-microdados-do-censo-extra%C3%A7%C3%A3o-transforma%C3%A7%C3%A3o-e-carregamento-com-bash-pyspark-f895b2ee739d"},
-          {"title": "Geografische Normalisierung: Was ist das und welche Auswirkungen hat sie?", "snippet": "abc", "date": "Nov 2020", "link": "https://aquare.la/normalizacao-geografica/"},
-          {"title": "Geldneutralität in der Covid-19-Ära: Eine animierte Analyse mit R", "snippet": "abc", "date": "Jan 2021", "link": "https://medium.com/@guilhermeviegas/neutralidade-da-moeda-na-era-covid19-uma-an%C3%A1lise-animada-atrav%C3%A9s-do-r-b79cc0f3ee98"},          
-          {"title": "Bolg1", "snippet": "abc", "date": "Dez 2020", "link": "https://example.com/blog3"},
-          {"title": "Bolg2", "snippet": "abc", "date": "Nov 2020", "link": "https://example.com/blog4"},
-          {"title": "Bolg3", "snippet": "abc", "date": "Okt 2020", "link": "https://example.com/blog5"},
-          {"title": "Bolg4", "snippet": "abc", "date": "Sep 2020", "link": "https://example.com/blog6"}
         ]
       },
       "geolayers": {
