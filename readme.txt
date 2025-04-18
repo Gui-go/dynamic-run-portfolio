@@ -13,9 +13,17 @@ cd Documents/17-dynamic-run-portfolio/
 gcloud services enable compute.googleapis.com --project=$PROJECT_INFRA_ID
 gcloud services enable dns.googleapis.com --project=$PROJECT_INFRA_ID
 gcloud services enable iam.googleapis.com --project=$PROJECT_INFRA_ID
+gcloud services enable discoveryengine.googleapis.com --project=$PROJECT_INFRA_ID
 # gcloud services enable cloudresourcemanager.googleapis.com --project=$PROJECT_INFRA_ID
 gcloud services enable secretmanager.googleapis.com --project=$PROJECT_INFRA_ID
- 
+
+gcloud auth application-default set-quota-project $PROJECT_INFRA_ID
+gcloud config set billing/quota_project $PROJECT_INFRA_ID
+
+
+gcloud config list
+
+
 
 # Flutter app:
 flutter config --enable-web

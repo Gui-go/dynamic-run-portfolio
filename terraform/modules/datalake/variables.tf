@@ -1,5 +1,5 @@
 variable "proj_name" {
-  description = "Project name"
+  description = "Project name identifier"
   type        = string
 }
 
@@ -11,14 +11,22 @@ variable "proj_id" {
 variable "location" {
   description = "Location of the resources"
   type        = string
+  default     = "us-central1"
 }
-
-# variable "zone" {
-#   description = "Zone of the resources"
-#   type        = string
-# }
 
 variable "tag_owner" {
-  description = "Tag to describe the owner of the resources"
+  description = "Owner identifier"
   type        = string
+  default     = "GuilhermeViegas"
 }
+
+variable "tag_env" {
+  description = "Environment identifier"
+  type        = string
+  default     = "prod"
+}
+
+
+
+
+
