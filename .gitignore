@@ -8,6 +8,7 @@
 
 
 
+*.pdf
 *.deb
 *.cc
 *.swift

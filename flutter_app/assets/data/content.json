@@ -87,6 +87,13 @@
       "discovery_search": {
         "title": "Generative Discovery Search",
         "subtabs": {
+          "virtual_guigo": {
+            "title": "Virtual Guigo",
+            "description": "This is a personalized AI search assistant designed to act as a virtual self-version of Guilherme, providing insights and assistance based on his expertise.",
+            "example": "What would Guilherme say about that?",
+            "image": "assets/images/virtualGuigo.png",
+            "configId": "df7e1970-11ba-41a3-8bbb-f1e235acaba1"
+          },
           "gwr_discovery": {
             "title": "GWR Discovery",
             "description": "This engine specializes in exploring the variances and similarities between different Geographically Weighted Models (GWR, MixedGWR, MultiscaleGWR, etc.), helping researchers analyze spatial regression techniques.",
@@ -100,13 +107,6 @@
             "example": "The Sublime Object of Ideology book, by Slavoj Zizek.",
             "image": "assets/images/migSearchEngine.png",
             "configId": "d12a6e07-8f62-4135-94b9-97279b7ad9f7"
-          },
-          "virtual_guigo": {
-            "title": "Virtual Guigo",
-            "description": "This is a personalized AI search assistant designed to act as a virtual self-version of Guilherme, providing insights and assistance based on his expertise.",
-            "example": "What would Guilherme say about that?",
-            "image": "assets/images/virtualGuigo.png",
-            "configId": "df7e1970-11ba-41a3-8bbb-f1e235acaba1"
           }
         }
       },
