@@ -2,26 +2,30 @@
 
 # GCP setting:
 export BILLING_ACC="01F0C7-9A2082-488963"
-export PROJECT_INFRA_NAME="dynamic-run-portfolio"
-export PROJECT_INFRA_ID="${PROJECT_INFRA_NAME}1"
-gcloud projects create $PROJECT_INFRA_ID --name=$PROJECT_INFRA_NAME --labels=owner=guilhermeviegas,environment=dev --enable-cloud-apis
-gcloud beta billing projects link $PROJECT_INFRA_ID --billing-account=$BILLING_ACC
-gcloud config set project $PROJECT_INFRA_ID
+export PROJECT_NAME="dynamic-run-portfolio"
+export PROJECT_ID="${PROJECT_NAME}1"
+gcloud projects create $PROJECT_ID --name=$PROJECT_NAME --labels=owner=guilhermeviegas,environment=dev --enable-cloud-apis
+gcloud beta billing projects link $PROJECT_ID --billing-account=$BILLING_ACC
+gcloud config set project $PROJECT_ID
 cd Documents/17-dynamic-run-portfolio/
 
 # APIs enabling:
-gcloud services enable compute.googleapis.com --project=$PROJECT_INFRA_ID
-gcloud services enable dns.googleapis.com --project=$PROJECT_INFRA_ID
-gcloud services enable iam.googleapis.com --project=$PROJECT_INFRA_ID
-gcloud services enable discoveryengine.googleapis.com --project=$PROJECT_INFRA_ID
-# gcloud services enable cloudresourcemanager.googleapis.com --project=$PROJECT_INFRA_ID
-gcloud services enable secretmanager.googleapis.com --project=$PROJECT_INFRA_ID
+gcloud services enable compute.googleapis.com --project=$PROJECT_ID
+gcloud services enable dns.googleapis.com --project=$PROJECT_ID
+gcloud services enable iam.googleapis.com --project=$PROJECT_ID
+gcloud services enable discoveryengine.googleapis.com --project=$PROJECT_ID
+# gcloud services enable cloudresourcemanager.googleapis.com --project=$PROJECT_ID
+gcloud services enable secretmanager.googleapis.com --project=$PROJECT_ID
 
-gcloud auth application-default set-quota-project $PROJECT_INFRA_ID
-gcloud config set billing/quota_project $PROJECT_INFRA_ID
+gcloud auth application-default set-quota-project $PROJECT_ID
+gcloud config set billing/quota_project $PROJECT_ID
 
 
 gcloud config list
+
+
+
+
 
 
 
@@ -83,8 +87,19 @@ gcloud artifacts repositories create dynamic-run-portfolio-repo \
 
 
 
+--
+# To get Discovery Engine access to GCS bucket: 
+gcloud storage buckets add-iam-policy-binding gs://dynamic-run-portfolio-docs-bucket \
+  --member=user:guilhermeviegas1993@gmail.com \
+  --role=roles/storage.admin
 
+gcloud storage buckets add-iam-policy-binding gs://dynamic-run-portfolio-docs-bucket \
+  --member=user:guilhermeviegas1993@gmail.com \
+  --role=roles/storage.objectAdmin
 
+gcloud storage buckets add-iam-policy-binding gs://dynamic-run-portfolio-docs-bucket \
+  --member=user:guilhermeviegas1993@gmail.com \
+  --role=roles/storage.objectCreator
 
 --
 

@@ -92,7 +92,7 @@
             "description": "This is a personalized AI search assistant designed to act as a virtual self-version of Guilherme, providing insights and assistance based on his expertise.",
             "example": "What would Guilherme say about that?",
             "image": "assets/images/virtualGuigo.png",
-            "configId": "df7e1970-11ba-41a3-8bbb-f1e235acaba1"
+            "configId": "faadabe8-f17d-4a69-8f93-f0dac48512fd"
           },
           "gwr_discovery": {
             "title": "GWR Discovery",
