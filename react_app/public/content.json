@@ -1,0 +1,452 @@
+{
+  "en": {
+    "home": {
+      "title": "Welcome to My Professional Portfolio",
+      "subtitle": "Innovating the Future Through Technology and Creativity",
+      "bio": {
+        "title": "Who I Am",
+        "content": "I am Guilherme, a Data Scientist and Data Engineer who finds fulfillment in turning data into meaningful impact. Armed with a Bachelors in Economics, a Masters in Geospatial Technologies, and over six years in the data IT field, I build solutions that combine analytics and innovation."
+      },
+      "highlights": {
+        "title": "My Highlights",
+        "items": [
+          {
+            "title": "Scalable Data Pipelines",
+            "description": "Designing and implementing robust ETL pipelines to process large-scale, time-series data efficiently."
+          },
+          {
+            "title": "Machine Learning for Impact",
+            "description": "Applying advanced machine learning techniques to uncover predictive insights and optimize decision-making."
+          },
+          {
+            "title": "Geospatial Data Insights",
+            "description": "Leveraging spatial data analysis to create actionable solutions for urban planning and environmental challenges."
+          }
+        ]
+      }
+    },
+    "cv": {
+      "title": "Curriculum Vitae",
+      "content": "With a robust background in computer science and years of experience in software development, my CV highlights my academic credentials, professional roles, and technical expertise. I've led teams in building scalable applications and have a proven track record in delivering impactful solutions.",
+      "education": {
+        "title": "Education",
+        "items": [
+          {
+            "degree": "Masters in Geospatial Technologies",
+            "institution": "Münster University (WWU)",
+            "year": "2023-2025"
+          },
+          {
+            "degree": "Bachelors in Economics",
+            "institution": "Federal University of Santa Catarina (UFSC)",
+            "year": "2018-2022"
+          }
+        ]
+      },
+      "experience": {
+        "title": "Professional Experience",
+        "items": [
+          {
+            "role": "Cloud Data Engineer",
+            "company": "CloudPilots",
+            "duration": "2024 - 2025",
+            "description": "Development of data pipelines that ensure data quality and availability, consultancy for external clients, and AI experimentation."
+          },
+          {
+            "role": "Data Consultant",
+            "company": "Inetum",
+            "duration": "2022 - 2024",
+            "description": "Cloud and Data consultancy, with Azure, GCP, Terraform, Python, and Bash, mostly."
+          },
+          {
+            "role": "Census Angent of Adminstration and Informatics",
+            "company": "IBGE - Brazilian Institute of Geography and Statistics",
+            "duration": "2022 - 2024",
+            "description": "Field research for the 2022 Brazilian Census. Management of human resources and training of new Field Census Agents. Allocation of equipment and materials to the field agents."
+          },
+          {
+            "role": "Applied Data Scientist",
+            "company": "4Intelligence",
+            "duration": "2021 - 2022",
+            "description": "Development of pipelines for time series forecasting, with Bash, Python, R, and Azure."
+          },
+          {
+            "role": "Junior Data Scientist",
+            "company": "Aquarela",
+            "duration": "2019 - 2021",
+            "description": "Data Science consultancy in various projects, using R, Python, Docker, JS, CSS, SQL, Postgres, MongoDB, GCP, AWS, Terraform."
+          }
+        ]
+      },
+      "skills": {
+        "title": "Skills",
+        "items": ["Python", "Bash", "SQL", "R", "PySpark", "GIS", "Machine Learning", "Time-Series Analysis", "Spatial-Serie Analysis", "GCP", "Azure", "AWS", "DataForm", "SQLX", "JS", "Docker", "Kubernetes", "AirFlow", "HDFS", "Kafka", "Git", "GitHub", "GitLab", "GitHub Actions", "CI/CD", "Scrum", "Agile", "Flutter", "Dart", "Data Engineering", "Data Science", "API", "REST", "Cloud", "Terraform", "Remote Sensing", "Data Quality", "Documentation", "MongoDB", "Machine Learning", "Deep Learning", "Distributed Computing"]
+      },
+      "certifications": {
+        "title": "Certifications",
+        "items": [
+          {
+            "name": "Associate Cloud Engineer",
+            "issuer": "Google Cloud Platform",
+            "year": "2024"
+          },
+          {
+            "name": "Associate Data Practioner",
+            "issuer": "Google Cloud Platform",
+            "year": "2024"
+          },
+          {
+            "name": "Cloud Digital Leader",
+            "issuer": "Google Cloud Platform",
+            "year": "2024"
+          },
+          {
+            "name": "Associate Data Scientist",
+            "issuer": "Microsoft Azure",
+            "year": "2023"
+          }
+        ]
+      },
+      "awards": {
+        "title": "Awards",
+        "items": [
+          {
+            "name": "Merit-based Scholarship for module Thesis",
+            "issuer": "Münster University (WWU)",
+            "year": "2024",
+            "description": "Awarded for outstanding performance in the Geospatial Technologies program and Thesis module."
+          }
+        ]
+      }
+    },
+    "publications": {
+      "title": "Publications",
+      "content": "My research contributions span artificial intelligence, data science, and software engineering. Published in top-tier journals and conferences, my work focuses on advancing machine learning algorithms and their real-world applications. Browse my papers to learn more about my findings."
+    },
+    "projects": {
+      "title": "Projects",
+      "content": "From open-source contributions to enterprise solutions, my projects demonstrate my ability to tackle complex challenges. Highlights include a real-time analytics platform, a machine learning model for predictive maintenance, and a cross-platform mobile app. Dive into the details to see my work in action."
+    },
+    "discovery": {
+      "title": "Discovery",
+      "content": "Curiosity drives my exploration of emerging technologies and ideas. This section captures my experiments with quantum computing, blockchain, and sustainable tech. Join me in uncovering the potential of tomorrow's innovations through prototypes and thought experiments."
+    },
+    "blog": {
+      "title": "My Blog",
+      "content": "Welcome to my blog, where I share insights, tutorials, and updates on technology and innovation. From deep dives into AI trends to practical coding tips, my posts aim to inform and inspire. Check out my latest articles below."
+    },
+    "about": {
+      "title": "About Me",
+      "content": "I'm a tech enthusiast with a love for problem-solving and collaboration. Beyond coding, I enjoy mentoring aspiring developers, contributing to tech communities, and exploring nature. Learn more about my values, passions, and vision for a tech-driven future."
+    },
+    "navbar": {
+      "home": "Home",
+      "cv": "CV",
+      "publications": "Publications",
+      "projects": "Projects",
+      "discovery": "Discovery",
+      "blog": "Blog",
+      "about": "About"
+    }
+  },
+  "es": {
+    "home": {
+      "title": "Bienvenido a mi Portafolio Profesional",
+      "subtitle": "Innovando el Futuro con Tecnología y Creatividad",
+      "bio": {
+        "title": "Quién Soy",
+        "content": "Soy un ingeniero de software dedicado y entusiasta de la tecnología, apasionado por resolver problemas complejos. Con experiencia en IA, desarrollo web y tecnología sostenible, busco crear soluciones impactantes que impulsen el progreso."
+      },
+      "highlights": {
+        "title": "Mis Destacados",
+        "items": [
+          {
+            "title": "Análisis Potenciado por IA",
+            "description": "Desarrollé una plataforma de análisis en tiempo real usando aprendizaje automático para optimizar decisiones empresariales."
+          },
+          {
+            "title": "App Móvil Multiplataforma",
+            "description": "Construí una aplicación móvil escalable para iOS y Android, mejorando la interacción con los usuarios."
+          },
+          {
+            "title": "Defensor de Tecnología Sostenible",
+            "description": "Contribuí a prácticas de codificación energéticamente eficientes para soluciones tecnológicas más verdes."
+          }
+        ]
+      }
+    },
+    "cv": {
+      "title": "Currículum Vitae",
+      "content": "Con una sólida formación en informática y años de experiencia en desarrollo de software, mi CV destaca mis credenciales académicas, roles profesionales y experiencia técnica. He liderado equipos en la construcción de aplicaciones escalables y tengo un historial probado en la entrega de soluciones impactantes."
+    },
+    "publications": {
+      "title": "Publicaciones",
+      "content": "Mis contribuciones de investigación abarcan inteligencia artificial, ciencia de datos e ingeniería de software. Publicado en revistas y conferencias de primer nivel, mi trabajo se centra en avanzar en algoritmos de aprendizaje automático y sus aplicaciones en el mundo real."
+    },
+    "projects": {
+      "title": "Proyectos",
+      "content": "Desde contribuciones de código abierto hasta soluciones empresariales, mis proyectos demuestran mi capacidad para enfrentar desafíos complejos. Destacan una plataforma de análisis en tiempo real, un modelo de aprendizaje automático para mantenimiento predictivo y una aplicación móvil multiplataforma."
+    },
+    "discovery": {
+      "title": "Descubrimiento",
+      "content": "La curiosidad impulsa mi exploración de tecnologías e ideas emergentes. Esta sección captura mis experimentos con computación cuántica, blockchain y tecnología sostenible. Únete a mí para descubrir el potencial de las innovaciones del mañana."
+    },
+    "blog": {
+      "title": "Mi Blog",
+      "content": "Bienvenido a mi blog, donde comparto ideas, tutoriales y actualizaciones sobre tecnología e innovación. Desde análisis profundos sobre tendencias en IA hasta consejos prácticos de programación, mis publicaciones buscan informar e inspirar."
+    },
+    "about": {
+      "title": "Sobre Mí",
+      "content": "Soy un entusiasta de la tecnología con amor por resolver problemas y colaborar. Además de programar, disfruto mentorizando a desarrolladores emergentes, contribuyendo a comunidades tecnológicas y explorando la naturaleza. Conoce más sobre mis valores y visión."
+    },
+    "navbar": {
+      "home": "Inicio",
+      "cv": "CV",
+      "publications": "Publicaciones",
+      "projects": "Proyectos",
+      "discovery": "Descubrimiento",
+      "blog": "Blog",
+      "about": "Sobre Mí"
+    }
+  },
+  "pt": {
+    "home": {
+      "title": "Bem-vindo ao Meu Portfólio Profissional",
+      "subtitle": "Inovando o Futuro com Tecnologia e Criatividade",
+      "bio": {
+        "title": "Quem Sou",
+        "content": "Sou um engenheiro de software dedicado e entusiasta da tecnologia, apaixonado por resolver problemas complexos. Com experiência em IA, desenvolvimento web e tecnologia sustentável, busco criar soluções impactantes que promovam o progresso."
+      },
+      "highlights": {
+        "title": "Meus Destaques",
+        "items": [
+          {
+            "title": "Análise Alimentada por IA",
+            "description": "Desenvolvi uma plataforma de análise em tempo real usando aprendizado de máquina para otimizar decisões de negócios."
+          },
+          {
+            "title": "App Móvel Multiplataforma",
+            "description": "Construí um aplicativo móvel escalável para iOS e Android, melhorando o engajamento do usuário."
+          },
+          {
+            "title": "Defensor de Tecnologia Sustentável",
+            "description": "Contribuí para práticas de codificação energeticamente eficientes para soluções tecnológicas mais verdes."
+          }
+        ]
+      }
+    },
+    "cv": {
+      "title": "Currículo",
+      "content": "Com uma sólida formação em ciência da computação e anos de experiência em desenvolvimento de software, meu currículo destaca minhas credenciais acadêmicas, papéis profissionais e expertise técnica. Liderei equipes na construção de aplicações escaláveis e tenho um histórico comprovado em entregar soluções impactantes."
+    },
+    "publications": {
+      "title": "Publicações",
+      "content": "Minhas contribuições de pesquisa abrangem inteligência artificial, ciência de dados e engenharia de software. Publicado em revistas e conferências de alto nível, meu trabalho foca em avançar algoritmos de aprendizado de máquina e suas aplicações no mundo real."
+    },
+    "projects": {
+      "title": "Projetos",
+      "content": "De contribuições de código aberto a soluções empresariais, meus projetos demonstram minha capacidade de enfrentar desafios complexos. Destaques incluem uma plataforma de análise em tempo real, um modelo de aprendizado de máquina para manutenção preditiva e um aplicativo móvel multiplataforma."
+    },
+    "discovery": {
+      "title": "Descoberta",
+      "content": "A curiosidade impulsiona minha exploração de tecnologias e ideias emergentes. Esta seção captura meus experimentos com computação quântica, blockchain e tecnologia sustentável. Junte-se a mim para desvendar o potencial das inovações de amanhã."
+    },
+    "blog": {
+      "title": "Meu Blog",
+      "content": "Bem-vindo ao meu blog, onde compartilho insights, tutoriais e atualizações sobre tecnologia e inovação. De análises profundas sobre tendências em IA a dicas práticas de programação, meus posts buscam informar e inspirar."
+    },
+    "about": {
+      "title": "Sobre Mim",
+      "content": "Sou um entusiasta da tecnologia com paixão por resolver problemas e colaborar. Além de programar, gosto de orientar desenvolvedores iniciantes, contribuir para comunidades tecnológicas e explorar a natureza. Saiba mais sobre meus valores e visão."
+    },
+    "navbar": {
+      "home": "Início",
+      "cv": "Currículo",
+      "publications": "Publicações",
+      "projects": "Projetos",
+      "discovery": "Descoberta",
+      "blog": "Blog",
+      "about": "Sobre Mim"
+    }
+  },
+  "de": {
+    "home": {
+      "title": "Willkommen zu meinem professionellen Portfolio",
+      "subtitle": "Die Zukunft durch Technologie und Kreativität gestalten",
+      "bio": {
+        "title": "Wer ich bin",
+        "content": "Ich bin ein engagierter Softwareingenieur und Technikbegeisterter mit einer Leidenschaft für die Lösung komplexer Probleme. Mit Expertise in KI, Webentwicklung und nachhaltiger Technologie strebe ich danach, wirkungsvolle Lösungen zu schaffen, die Fortschritt fördern."
+      },
+      "highlights": {
+        "title": "Meine Highlights",
+        "items": [
+          {
+            "title": "KI-gestützte Analysen",
+            "description": "Entwickelte eine Echtzeit-Analyseplattform mit maschinellem Lernen zur Optimierung von Geschäftsentscheidungen."
+          },
+          {
+            "title": "Plattformübergreifende Mobile App",
+            "description": "Erstellte eine skalierbare mobile App für iOS und Android, die das Nutzerengagement steigert."
+          },
+          {
+            "title": "Befürworter nachhaltiger Technologie",
+            "description": "Trug zu energieeffizienten Programmierpraktiken für umweltfreundlichere Technologielösungen bei."
+          }
+        ]
+      }
+    },
+    "cv": {
+      "title": "Lebenslauf",
+      "content": "Mit einem fundierten Hintergrund in Informatik und jahrelanger Erfahrung in der Softwareentwicklung hebt mein Lebenslauf meine akademischen Qualifikationen, beruflichen Rollen und technischen Fähigkeiten hervor. Ich habe Teams beim Aufbau skalierbarer Anwendungen geleitet und eine nachweisbare Erfolgsbilanz bei der Lieferung wirkungsvoller Lösungen."
+    },
+    "publications": {
+      "title": "Publikationen",
+      "content": "Meine Forschungsergebnisse umfassen Künstliche Intelligenz, Datenwissenschaft und Softwaretechnik. Veröffentlicht in erstklassigen Fachzeitschriften und Konferenzen, konzentriert sich meine Arbeit auf die Weiterentwicklung von Machine-Learning-Algorithmen und deren praktische Anwendungen."
+    },
+    "projects": {
+      "title": "Projekte",
+      "content": "Von Open-Source-Beiträgen bis hin zu Unternehmenslösungen zeigen meine Projekte meine Fähigkeit, komplexe Herausforderungen zu meistern. Zu den Highlights gehören eine Echtzeit-Analyseplattform, ein Machine-Learning-Modell für vorausschauende Wartung und eine plattformübergreifende mobile App."
+    },
+    "discovery": {
+      "title": "Entdeckung",
+      "content": "Neugier treibt meine Erforschung neuer Technologien und Ideen an. Dieser Abschnitt zeigt meine Experimente mit Quantencomputing, Blockchain und nachhaltiger Technologie. Begleiten Sie mich, um das Potenzial der Innovationen von morgen zu entdecken."
+    },
+    "blog": {
+      "title": "Mein Blog",
+      "content": "Willkommen in meinem Blog, wo ich Einblicke, Tutorials und Updates zu Technologie und Innovation teile. Von tiefgehenden Analysen zu KI-Trends bis hin zu praktischen Programmiertipps sollen meine Beiträge informieren und inspirieren."
+    },
+    "about": {
+      "title": "Über Mich",
+      "content": "Ich bin ein Technikbegeisterter mit einer Leidenschaft für Problemlösung und Zusammenarbeit. Neben dem Programmieren genieße ich es, angehende Entwickler zu betreuen, mich in Technik-Communities zu engagieren und die Natur zu erkunden. Erfahren Sie mehr über meine Werte und Vision."
+    },
+    "navbar": {
+      "home": "Startseite",
+      "cv": "Lebenslauf",
+      "publications": "Publikationen",
+      "projects": "Projekte",
+      "discovery": "Entdeckung",
+      "blog": "Blog",
+      "about": "Über Mich"
+    }
+  },
+  "fr": {
+    "home": {
+      "title": "Bienvenue sur mon portfolio professionnel",
+      "subtitle": "Innover l'avenir grâce à la technologie et à la créativité",
+      "bio": {
+        "title": "Qui suis-je",
+        "content": "Je suis un ingénieur logiciel dévoué et passionné par la technologie, avec un amour pour résoudre des problèmes complexes. Avec une expertise en IA, développement web et technologies durables, je m'efforce de créer des solutions impactantes qui favorisent le progrès."
+      },
+      "highlights": {
+        "title": "Mes points forts",
+        "items": [
+          {
+            "title": "Analytique alimentée par l'IA",
+            "description": "Développé une plateforme d'analyse en temps réel utilisant l'apprentissage automatique pour optimiser les décisions commerciales."
+          },
+          {
+            "title": "Application mobile multiplateforme",
+            "description": "Créé une application mobile évolutive pour iOS et Android, améliorant l'engagement des utilisateurs."
+          },
+          {
+            "title": "Défenseur des technologies durables",
+            "description": "Contribué à des pratiques de codage écoénergétiques pour des solutions technologiques plus vertes."
+          }
+        ]
+      }
+    },
+    "cv": {
+      "title": "Curriculum Vitae",
+      "content": "Avec une solide formation en informatique et des années d'expérience en développement logiciel, mon CV met en avant mes qualifications académiques, mes rôles professionnels et mon expertise technique. J'ai dirigé des équipes dans la création d'applications évolutives et j'ai fait mes preuves en livrant des solutions impactantes."
+    },
+    "publications": {
+      "title": "Publications",
+      "content": "Mes contributions à la recherche couvrent l'intelligence artificielle, la science des données et l'ingénierie logicielle. Publié dans des revues et conférences de premier plan, mon travail se concentre sur l'avancement des algorithmes d'apprentissage automatique et leurs applications pratiques."
+    },
+    "projects": {
+      "title": "Projets",
+      "content": "Des contributions open-source aux solutions d'entreprise, mes projets démontrent ma capacité à relever des défis complexes. Parmi les points forts, une plateforme d'analyse en temps réel, un modèle d'apprentissage automatique pour la maintenance prédictive et une application mobile multiplateforme."
+    },
+    "discovery": {
+      "title": "Découverte",
+      "content": "La curiosité guide mon exploration des technologies et idées émergentes. Cette section présente mes expérimentations avec l'informatique quantique, la blockchain et les technologies durables. Rejoignez-moi pour découvrir le potentiel des innovations de demain."
+    },
+    "blog": {
+      "title": "Mon Blog",
+      "content": "Bienvenue sur mon blog, où je partage des idées, des tutoriels et des mises à jour sur la technologie et l'innovation. Des analyses approfondies sur les tendances de l'IA aux conseils pratiques de programmation, mes articles visent à informer et inspirer."
+    },
+    "about": {
+      "title": "À propos de moi",
+      "content": "Je suis un passionné de technologie avec un amour pour la résolution de problèmes et la collaboration. En dehors du codage, j'apprécie encadrer les développeurs en herbe, contribuer aux communautés technologiques et explorer la nature. Découvrez mes valeurs et ma vision."
+    },
+    "navbar": {
+      "home": "Accueil",
+      "cv": "CV",
+      "publications": "Publications",
+      "projects": "Projets",
+      "discovery": "Découverte",
+      "blog": "Blog",
+      "about": "À propos"
+    }
+  },
+  "zh": {
+    "home": {
+      "title": "欢迎体验我的专业作品集",
+      "subtitle": "通过技术和创意创新未来",
+      "bio": {
+        "title": "我是谁",
+        "content": "我是一名专注的软件工程师和技术爱好者，热衷于解决复杂问题。凭借在人工智能、Web开发和可持续技术方面的专长，我致力于创造推动进步的具有影响力的解决方案。"
+      },
+      "highlights": {
+        "title": "我的亮点",
+        "items": [
+          {
+            "title": "人工智能驱动的分析",
+            "description": "开发了一个使用机器学习优化商业决策的实时分析平台。"
+          },
+          {
+            "title": "跨平台移动应用",
+            "description": "构建了一个可扩展的移动应用，适用于iOS和Android，提升用户参与度。"
+          },
+          {
+            "title": "可持续技术倡导者",
+            "description": "为更环保的技术解决方案贡献了节能编码实践。"
+          }
+        ]
+      }
+    },
+    "cv": {
+      "title": "简历",
+      "content": "凭借计算机科学的扎实背景和多年的软件开发经验，我的简历突显了我的学术资质、职业角色和技术专长。我曾领导团队开发可扩展的应用，并在交付具有影响力的解决方案方面有着良好的记录。"
+    },
+    "publications": {
+      "title": "出版物",
+      "content": "我的研究贡献涵盖人工智能、数据科学和软件工程。我在顶级期刊和会议上发表了论文，研究重点是推进机器学习算法及其现实世界的应用。浏览我的论文以了解更多研究成果。"
+    },
+    "projects": {
+      "title": "项目",
+      "content": "从开源贡献到企业解决方案，我的项目展示了应对复杂挑战的能力。亮点包括一个实时分析平台、一个用于预测性维护的机器学习模型和一个跨平台移动应用。深入了解详情，感受我的工作成果。"
+    },
+    "discovery": {
+      "title": "探索",
+      "content": "好奇心驱动我探索新兴技术和理念。本节记录了我对量子计算、区块链和可持续技术的实验。加入我，一起揭开未来创新的潜力，通过原型和思想实验。"
+    },
+    "blog": {
+      "title": "我的博客",
+      "content": "欢迎访问我的博客，我在这里分享技术与创新的见解、教程和更新。从深入探讨人工智能趋势到实用的编程技巧，我的文章旨在启发和传递知识。查看下面的最新文章。"
+    },
+    "about": {
+      "title": "关于我",
+      "content": "我是一位热爱解决问题的技术爱好者，热衷于协作。除了编程，我喜欢指导有志开发者，参与技术社区，以及探索自然。了解更多关于我的价值观、热情和对技术驱动未来的愿景。"
+    },
+    "navbar": {
+      "home": "首页",
+      "cv": "简历",
+      "publications": "出版物",
+      "projects": "项目",
+      "discovery": "探索",
+      "blog": "博客",
+      "about": "关于"
+    }
+  }
+}

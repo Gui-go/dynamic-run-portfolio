@@ -131,3 +131,13 @@ domain from registro.br
 
 add network
 
+
+# docker build -t d3-map-app .
+# docker run -p 3000:3000 d3-map-app
+docker compose up --build
+
+
+docker build -t vanilla_app .
+docker run -p 3000:3000 vanilla_app
+
+

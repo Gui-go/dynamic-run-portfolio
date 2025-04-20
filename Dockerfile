@@ -20,6 +20,6 @@ COPY nginx.conf /etc/nginx/nginx.conf
 # Copy the web build output
 COPY --from=build /app/build/web /usr/share/nginx/html
 
-EXPOSE 8080
+EXPOSE 80
 
 CMD ["nginx", "-g", "daemon off;"]
