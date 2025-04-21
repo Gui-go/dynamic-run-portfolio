@@ -32,8 +32,11 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: ./flutter_app
+          file: flutter_app/Dockerfile
           push: true
           tags: us-docker.pkg.dev/dynamic-run-portfolio1/dynamic-run-portfolio-repo/dynamic-run-portfolio:latest
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
 
       - name: Deploy to Cloud Run
         run: |
@@ -41,4 +44,9 @@ jobs:
             --image=us-docker.pkg.dev/dynamic-run-portfolio1/dynamic-run-portfolio-repo/dynamic-run-portfolio:latest \
             --platform=managed \
             --region=us-central1 \
-            --allow-unauthenticated
+            --allow-unauthenticated \
+            --memory=512Mi \
+            --cpu=1 \
+            --concurrency=80 \
+            --timeout=300
+ 
