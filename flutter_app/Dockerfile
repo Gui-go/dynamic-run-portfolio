@@ -2,10 +2,10 @@ FROM ghcr.io/cirruslabs/flutter:latest AS build
 
 WORKDIR /app
 
-COPY flutter_app/pubspec.yaml flutter_app/pubspec.lock ./
+COPY pubspec.yaml pubspec.lock ./
 RUN flutter pub get
 
-COPY flutter_app/. .
+COPY . .
 
 RUN rm -rf .dart_tool .packages .flutter-plugins .flutter-plugins-dependencies
 
