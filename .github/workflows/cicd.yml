@@ -49,4 +49,5 @@ jobs:
             --cpu=1 \
             --concurrency=80 \
             --timeout=300
+            --set-env-vars=PORT=80
  
