@@ -6,6 +6,7 @@ import CV from './components/cv';
 import Publications from './components/publications';
 import Projects from './components/projects';
 import Discovery from './components/discovery';
+import GeoLayers from './components/geolayers';
 import Blog from './components/blog';
 import About from './components/about';
 
@@ -32,6 +33,8 @@ const App = () => {
         return <Projects content={content[language]?.projects} />;
       case 'discovery':
         return <Discovery content={content[language]?.discovery} />;
+      case 'geolayers':
+        return <GeoLayers content={content[language]?.geolayers} />;
       case 'blog':
           return <Blog content={content[language]?.blog} />;
       case 'about':

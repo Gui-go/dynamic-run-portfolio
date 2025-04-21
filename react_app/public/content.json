@@ -80,7 +80,50 @@
       },
       "skills": {
         "title": "Skills",
-        "items": ["Python", "Bash", "SQL", "R", "PySpark", "GIS", "Machine Learning", "Time-Series Analysis", "Spatial-Serie Analysis", "GCP", "Azure", "AWS", "DataForm", "SQLX", "JS", "Docker", "Kubernetes", "AirFlow", "HDFS", "Kafka", "Git", "GitHub", "GitLab", "GitHub Actions", "CI/CD", "Scrum", "Agile", "Flutter", "Dart", "Data Engineering", "Data Science", "API", "REST", "Cloud", "Terraform", "Remote Sensing", "Data Quality", "Documentation", "MongoDB", "Machine Learning", "Deep Learning", "Distributed Computing"]
+        "items": [
+          "Python",
+          "Bash",
+          "SQL",
+          "R",
+          "PySpark",
+          "GIS",
+          "Machine Learning",
+          "Time-Series Analysis",
+          "Spatial-Serie Analysis",
+          "GCP",
+          "Azure",
+          "AWS",
+          "DataForm",
+          "SQLX",
+          "JS",
+          "Docker",
+          "Kubernetes",
+          "AirFlow",
+          "HDFS",
+          "Kafka",
+          "Git",
+          "GitHub",
+          "GitLab",
+          "GitHub Actions",
+          "CI/CD",
+          "Scrum",
+          "Agile",
+          "Flutter",
+          "Dart",
+          "Data Engineering",
+          "Data Science",
+          "API",
+          "REST",
+          "Cloud",
+          "Terraform",
+          "Remote Sensing",
+          "Data Quality",
+          "Documentation",
+          "MongoDB",
+          "Machine Learning",
+          "Deep Learning",
+          "Distributed Computing"
+        ]
       },
       "certifications": {
         "title": "Certifications",
@@ -121,14 +164,91 @@
     },
     "publications": {
       "title": "Publications",
-      "content": "My research contributions span artificial intelligence, data science, and software engineering. Published in top-tier journals and conferences, my work focuses on advancing machine learning algorithms and their real-world applications. Browse my papers to learn more about my findings."
+      "items": [
+        {
+          "title": "Migration Dynamics in Brazil",
+          "subtitle": "A Spatial Econometric Analysis\nMaster's thesis awarded merit-based fellowship in the Erasmus Mundus GeoSpatial Technologies program 2025\nR, Python, Terraform, Docker, GCP, BigQuery, DataForm, SQL, SQLX, JS, GWR, MGWR",
+          "link": "https://drive.google.com/file/d/1lFR7ozEWcbUpphhUKJu1Zs2P0hnMrF1S/view?usp=sharing"
+        },
+        {
+          "title": "Higher Education, Economic Complexity, and Knowledge Spillovers Across Micro-Regions of Brazil",
+          "subtitle": "A Geographically Weighted Regression Approach\nBachelor thesis for the degree of Economic Sciences\nR, Python, GWR",
+          "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4549754"
+        },
+        {
+          "title": "Export complexity, industrial complexity and regional economic growth in Brazil",
+          "subtitle": "A comparison of various complexity (ECI) metrics with Brazilian exports and employment data\nPython, R, Shiny",
+          "link": "https://econpapers.repec.org/paper/arxpapers/2312.07469.htm"
+        },
+        {
+          "title": "Notes on the Census Microdata",
+          "subtitle": "Extracting, Transforming, and Loading with Bash, PySpark, and Cloud Storage\nPython, PySpark, HDFS, Big Data, Micro Data, Census",
+          "link": "https://medium.com/@guilhermeviegas/observa%C3%A7%C3%B5es-sobre-os-microdados-do-censo-extra%C3%A7%C3%A3o-transforma%C3%A7%C3%A3o-e-carregamento-com-bash-pyspark-f895b2ee739d"
+        },
+        {
+          "title": "Geographic Normalization",
+          "subtitle": "What is it and what are its implications?\nR, Spatial Statistics, Data Visualization",
+          "link": "https://aquare.la/normalizacao-geografica/"
+        },
+        {
+          "title": "Money Neutrality in the Covid19 Era",
+          "subtitle": "An Animated Analysis with R\nBased on economic models, the idea of money neutrality is explained in an animated way. Guilherme rightly predicts inflation in the medium term, as expansionary monetary policies were applied to mitigate the Covid effects. In the long term, 'inflation is nothing but a monetary phenomenon'",
+          "link": "https://medium.com/@guilhermeviegas/neutralidade-da-moeda-na-era-covid19-uma-an%C3%A1lise-animada-atrav%C3%A9s-do-r-b79cc0f3ee98"
+        },
+        {
+          "title": "Socioeconomic Observatory of Santa Catarina",
+          "subtitle": "OSESC\nA dashboard to analyze and forecast time series of Brazilian socio-economic data, with focus on the state of Santa Catarina",
+          "link": "https://drive.google.com/file/d/1dat0aqaCNWdex1HIRWemxf7r9SH7U57D/view"
+        }
+      ]
     },
     "projects": {
       "title": "Projects",
-      "content": "From open-source contributions to enterprise solutions, my projects demonstrate my ability to tackle complex challenges. Highlights include a real-time analytics platform, a machine learning model for predictive maintenance, and a cross-platform mobile app. Dive into the details to see my work in action."
+      "items": [
+        {
+          "name": "Wilhelm, your Artificial Econometrics Professor",
+          "description": "Digital book to teach Econometrics with the support of an AI Agent, Wilhelm, that helps the user take the most from the classes.",
+          "tech": "GCP, R, Python, SQL",
+          "image": "../assets/images/wilhelmRobotProfessor.jpg"
+        },
+        {
+          "name": "BRvectors",
+          "description": "An R package to get access to Brazilian polygon data at various spatial granularities, as well as some methods for Exploratory Spatial Data Analysis.",
+          "tech": "R, Rstudio, Posit, Brazil, Polygon, IBGE, SHP, GeoParquet",
+          "image": "../assets/images/BRvectors.jpg"
+        },
+        {
+          "name": "AzureVM4Nomads",
+          "description": "Terraform automation script for deployment of Azure Virtual Machines at scale.",
+          "tech": "Terraform, Azure, Cloud Computing",
+          "image": "../assets/images/digitalNomad.jpg"
+        },
+        {
+          "name": "How much is this mansion worth?",
+          "description": "Spatial data forecasting to estimate the price of a - supposedly - overpriced house bought by a politician",
+          "tech": "Python, SQL",
+          "image": "../assets/images/mansion.jpg"
+        },
+        {
+          "name": "Motion Snitcher",
+          "description": "Bash and Python code for a Raspberry Pi send messages when a motion is detected.",
+          "tech": "Bash, Python, IoT, RaspberryPi",
+          "image": "../assets/images/raspberryPI.jpg"
+        },
+        {
+          "name": "Equanimy Systems",
+          "description": "An AI system to efficiently and equitably allocate resources in a group.",
+          "tech": "Bash, Python, IoT, RaspberryPi",
+          "image": "../assets/images/dawnofacity.jpg"
+        }
+      ]
     },
     "discovery": {
       "title": "Discovery",
+      "content": "Curiosity drives my exploration of emerging technologies and ideas. This section captures my experiments with quantum computing, blockchain, and sustainable tech. Join me in uncovering the potential of tomorrow's innovations through prototypes and thought experiments."
+    },
+    "geolayers": {
+      "title": "GeoLayers",
       "content": "Curiosity drives my exploration of emerging technologies and ideas. This section captures my experiments with quantum computing, blockchain, and sustainable tech. Join me in uncovering the potential of tomorrow's innovations through prototypes and thought experiments."
     },
     "blog": {
@@ -144,6 +264,7 @@
       "cv": "CV",
       "publications": "Publications",
       "projects": "Projects",
+      "geolayers": "GeoLayers",
       "discovery": "Discovery",
       "blog": "Blog",
       "about": "About"
@@ -186,6 +307,10 @@
     "projects": {
       "title": "Proyectos",
       "content": "Desde contribuciones de código abierto hasta soluciones empresariales, mis proyectos demuestran mi capacidad para enfrentar desafíos complejos. Destacan una plataforma de análisis en tiempo real, un modelo de aprendizaje automático para mantenimiento predictivo y una aplicación móvil multiplataforma."
+    },
+    "geolayers": {
+      "title": "GeoLayers",
+      "content": "Curiosity drives my exploration of emerging technologies and ideas. This section captures my experiments with quantum computing, blockchain, and sustainable tech. Join me in uncovering the potential of tomorrow's innovations through prototypes and thought experiments."
     },
     "discovery": {
       "title": "Descubrimiento",
@@ -247,6 +372,10 @@
       "title": "Projetos",
       "content": "De contribuições de código aberto a soluções empresariais, meus projetos demonstram minha capacidade de enfrentar desafios complexos. Destaques incluem uma plataforma de análise em tempo real, um modelo de aprendizado de máquina para manutenção preditiva e um aplicativo móvel multiplataforma."
     },
+    "geolayers": {
+      "title": "GeoLayers",
+      "content": "Curiosity drives my exploration of emerging technologies and ideas. This section captures my experiments with quantum computing, blockchain, and sustainable tech. Join me in uncovering the potential of tomorrow's innovations through prototypes and thought experiments."
+    },
     "discovery": {
       "title": "Descoberta",
       "content": "A curiosidade impulsiona minha exploração de tecnologias e ideias emergentes. Esta seção captura meus experimentos com computação quântica, blockchain e tecnologia sustentável. Junte-se a mim para desvendar o potencial das inovações de amanhã."
@@ -306,6 +435,10 @@
     "projects": {
       "title": "Projekte",
       "content": "Von Open-Source-Beiträgen bis hin zu Unternehmenslösungen zeigen meine Projekte meine Fähigkeit, komplexe Herausforderungen zu meistern. Zu den Highlights gehören eine Echtzeit-Analyseplattform, ein Machine-Learning-Modell für vorausschauende Wartung und eine plattformübergreifende mobile App."
+    },
+    "geolayers": {
+      "title": "GeoLayers",
+      "content": "Curiosity drives my exploration of emerging technologies and ideas. This section captures my experiments with quantum computing, blockchain, and sustainable tech. Join me in uncovering the potential of tomorrow's innovations through prototypes and thought experiments."
     },
     "discovery": {
       "title": "Entdeckung",
@@ -371,6 +504,10 @@
       "title": "Découverte",
       "content": "La curiosité guide mon exploration des technologies et idées émergentes. Cette section présente mes expérimentations avec l'informatique quantique, la blockchain et les technologies durables. Rejoignez-moi pour découvrir le potentiel des innovations de demain."
     },
+    "geolayers": {
+      "title": "GeoLayers",
+      "content": "Curiosity drives my exploration of emerging technologies and ideas. This section captures my experiments with quantum computing, blockchain, and sustainable tech. Join me in uncovering the potential of tomorrow's innovations through prototypes and thought experiments."
+    },
     "blog": {
       "title": "Mon Blog",
       "content": "Bienvenue sur mon blog, où je partage des idées, des tutoriels et des mises à jour sur la technologie et l'innovation. Des analyses approfondies sur les tendances de l'IA aux conseils pratiques de programmation, mes articles visent à informer et inspirer."
@@ -426,6 +563,10 @@
     "projects": {
       "title": "项目",
       "content": "从开源贡献到企业解决方案，我的项目展示了应对复杂挑战的能力。亮点包括一个实时分析平台、一个用于预测性维护的机器学习模型和一个跨平台移动应用。深入了解详情，感受我的工作成果。"
+    },
+    "geolayers": {
+      "title": "GeoLayers",
+      "content": "Curiosity drives my exploration of emerging technologies and ideas. This section captures my experiments with quantum computing, blockchain, and sustainable tech. Join me in uncovering the potential of tomorrow's innovations through prototypes and thought experiments."
     },
     "discovery": {
       "title": "探索",
