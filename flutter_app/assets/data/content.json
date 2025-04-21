@@ -121,7 +121,6 @@
         "social": [
           {"platform": "LinkedIn", "link": "https://www.linkedin.com/in/guilherme-viegas-1b5b0495/"},
           {"platform": "GitHub", "link": "https://github.com/Gui-go"},
-          {"platform": "Twitter", "link": "https://twitter.com/yourhandle"},
           {"platform": "Portfolio", "link": "guigo.dev.br"}
         ],
         "location": "Based in: Somewhere, Earth",

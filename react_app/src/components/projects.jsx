@@ -9,27 +9,14 @@ import mansion from '../assets/images/mansion.jpg';
 import raspberryPI from '../assets/images/raspberryPI.jpg';
 import dawnofacity from '../assets/images/dawnofacity.jpg';
 
-
-
-// import profile from '../assets/images/profile.jpeg';
-// import dawnofacity from '../assets/images/dawnofacity.jpg';
-
-// // Placeholder for missing images
-// // import placeholder from 'https://via.placeholder.com/150';
-
-// // Map content.json image paths to imported images
-
 const imageMap = {
-  '../assets/images/error_img.png': placeholder,
-  '../assets/images/wilhelmRobotProfessor.jpg': wilhelmRobotProfessor,
-  '../assets/images/BRvectors.jpg': BRvectors,
-  '../assets/images/digitalNomad.jpg': digitalNomad,
-  '../assets/images/mansion.jpg': mansion,
-  '../assets/images/raspberryPI.jpg': raspberryPI,
-  '../assets/images/dawnofacity.jpg': dawnofacity,
-  // '../assets/images/profile.jpeg': profile,
-  // '../assets/images/dawnofacity.jpg': dawnofacity,
-  // '../assets/images/geotracker.png': geotracker,
+  'error_img': placeholder,
+  'wilhelmRobotProfessor': wilhelmRobotProfessor,
+  'BRvectors': BRvectors,
+  'digitalNomad': digitalNomad,
+  'mansion': mansion,
+  'raspberryPI': raspberryPI,
+  'dawnofacity': dawnofacity,
 };
 
 const Projects = ({ content }) => {

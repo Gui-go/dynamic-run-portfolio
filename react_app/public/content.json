@@ -1,14 +1,14 @@
 {
   "en": {
     "home": {
-      "title": "Welcome to My Professional Portfolio",
+      "title": "Welcome to Guilherme's Portfolio",
       "subtitle": "Innovating the Future Through Technology and Creativity",
       "bio": {
         "title": "Who I Am",
         "content": "I am Guilherme, a Data Scientist and Data Engineer who finds fulfillment in turning data into meaningful impact. Armed with a Bachelors in Economics, a Masters in Geospatial Technologies, and over six years in the data IT field, I build solutions that combine analytics and innovation."
       },
       "highlights": {
-        "title": "My Highlights",
+        "title": "Highlights",
         "items": [
           {
             "title": "Scalable Data Pipelines",
@@ -209,43 +209,62 @@
           "name": "Wilhelm, your Artificial Econometrics Professor",
           "description": "Digital book to teach Econometrics with the support of an AI Agent, Wilhelm, that helps the user take the most from the classes.",
           "tech": "GCP, R, Python, SQL",
-          "image": "../assets/images/wilhelmRobotProfessor.jpg"
+          "image": "wilhelmRobotProfessor"
         },
         {
           "name": "BRvectors",
           "description": "An R package to get access to Brazilian polygon data at various spatial granularities, as well as some methods for Exploratory Spatial Data Analysis.",
           "tech": "R, Rstudio, Posit, Brazil, Polygon, IBGE, SHP, GeoParquet",
-          "image": "../assets/images/BRvectors.jpg"
+          "image": "BRvectors"
         },
         {
           "name": "AzureVM4Nomads",
           "description": "Terraform automation script for deployment of Azure Virtual Machines at scale.",
           "tech": "Terraform, Azure, Cloud Computing",
-          "image": "../assets/images/digitalNomad.jpg"
+          "image": "digitalNomad"
         },
         {
           "name": "How much is this mansion worth?",
           "description": "Spatial data forecasting to estimate the price of a - supposedly - overpriced house bought by a politician",
           "tech": "Python, SQL",
-          "image": "../assets/images/mansion.jpg"
+          "image": "mansion"
         },
         {
           "name": "Motion Snitcher",
           "description": "Bash and Python code for a Raspberry Pi send messages when a motion is detected.",
           "tech": "Bash, Python, IoT, RaspberryPi",
-          "image": "../assets/images/raspberryPI.jpg"
+          "image": "raspberryPI"
         },
         {
           "name": "Equanimy Systems",
           "description": "An AI system to efficiently and equitably allocate resources in a group.",
           "tech": "Bash, Python, IoT, RaspberryPi",
-          "image": "../assets/images/dawnofacity.jpg"
+          "image": "dawnofacity"
         }
       ]
     },
     "discovery": {
       "title": "Discovery",
-      "content": "Curiosity drives my exploration of emerging technologies and ideas. This section captures my experiments with quantum computing, blockchain, and sustainable tech. Join me in uncovering the potential of tomorrow's innovations through prototypes and thought experiments."
+      "subtabs": {
+        "virtual_guigo": {
+          "title": "Virtual Guigo",
+          "description": "A personalized AI assistant embodying Guilherme's expertise in data science and geospatial analysis, offering tailored insights and guidance.",
+          "example": "How would Guilherme approach a geospatial data project?",
+          "image": "virtualGuigo"
+        },
+        "gwr_discovery": {
+          "title": "GWR Discovery",
+          "description": "A specialized tool for exploring Geographically Weighted Regression models (GWR, MixedGWR, MultiscaleGWR), enabling researchers to compare and analyze spatial regression techniques.",
+          "example": "Compare GWR and MultiscaleGWR for spatial data analysis.",
+          "image": "gwrSearchEngine"
+        },
+        "ms_thesis_discovery": {
+          "title": "Thesis Discovery",
+          "description": "A search engine to streamline research on migration driven by economic opportunities, organizing academic resources for Guilherme's master's thesis.",
+          "example": "How does the concept of Sublime Object of Ideology, by Slavoj Zizek, relate to migration?",
+          "image": "migSearchEngine"
+        }
+      }
     },
     "geolayers": {
       "title": "GeoLayers",
@@ -257,7 +276,30 @@
     },
     "about": {
       "title": "About Me",
-      "content": "I'm a tech enthusiast with a love for problem-solving and collaboration. Beyond coding, I enjoy mentoring aspiring developers, contributing to tech communities, and exploring nature. Learn more about my values, passions, and vision for a tech-driven future."
+      "bio": "I'm Guilherme, a data scientist and geospatial analyst passionate about uncovering insights through data. Based somewhere on Earth, I specialize in econometrics, spatial regression, and AI-driven solutions. I'm open to freelance projects, collaborations, or just a chat about tech!",
+      "social": [
+        {
+          "platform": "LinkedIn",
+          "link": "https://www.linkedin.com/in/guilherme-viegas-1b5b0495/"
+        },
+        {
+          "platform": "GitHub",
+          "link": "https://www.github.com/Gui-go"
+        },
+        {
+          "platform": "Portfolio",
+          "link": "https://www.guigo.dev.br"
+        }
+      ],
+      "contact": {
+        "title": "Get in Touch",
+        "intro": "Send me a Pub/Sub message!",
+        "name_label": "Name",
+        "email_label": "Email",
+        "message_label": "Message",
+        "send_button": "Send Message"
+      },
+      "image": "profile.jpeg"
     },
     "navbar": {
       "home": "Home",
