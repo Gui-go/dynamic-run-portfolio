@@ -141,3 +141,7 @@ docker build -t vanilla_app .
 docker run -p 3000:3000 vanilla_app
 
 
+
+
+docker build -t guigo13/dynamic-run-portfolio-flutter .
+docker run -p 8080:80 guigo13/dynamic-run-portfolio-flutter
