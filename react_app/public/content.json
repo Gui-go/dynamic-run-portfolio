@@ -267,12 +267,128 @@
       }
     },
     "geolayers": {
-      "title": "GeoLayers",
-      "content": "Curiosity drives my exploration of emerging technologies and ideas. This section captures my experiments with quantum computing, blockchain, and sustainable tech. Join me in uncovering the potential of tomorrow's innovations through prototypes and thought experiments."
+      "title": "geolayers",
+      "subtabs": {
+        "geolayers1Link": {
+          "title": "Go to geolayers 1",
+          "description": "Click here to read geolayers 1.",
+          "link": "geolayer1",
+          "image": "virtualGuigo"
+        },
+        "geolayers2Link": {
+          "title": "Go to geolayers 2",
+          "description": "Click here to read geolayers 2.",
+          "link": "geolayer2",
+          "image": "gwrSearchEngine"
+        },
+        "geolayers3Link": {
+          "title": "Go to geolayers 3",
+          "description": "Click here to read geolayers 3.",
+          "link": "geolayer3",
+          "image": "gwrSearchEngine"
+        }
+      }
+    },
+    "geolayer1": {
+      "title": "Welcome to geolayers 1",
+      "subtabs": {
+        "sectionA": {
+          "title": "First Section of geolayers 1",
+          "description": "Content for the first section of geolayers one goes here.",
+          "image": "virtualGuigo",
+          "link": "#sectionA"
+        },
+        "sectionB": {
+          "title": "Second Section of geolayers 1",
+          "description": "More exciting content for the second part of blog one.",
+          "image": "gwrSearchEngine",
+          "link": "#sectionB"
+        }
+      }
+    },
+    "geolayer2": {
+      "title": "Exploring geolayers 2",
+      "subtabs": {
+        "itemX": {
+          "title": "Interesting Topic in geolayers 2",
+          "description": "Details about an interesting topic in the second blog.",
+          "image": "migSearchEngine",
+          "link": "#topicX"
+        }
+      }
+    },
+    "geolayer3": {
+      "title": "Exploring geolayers 3",
+      "subtabs": {
+        "itemX": {
+          "title": "Interesting Topic in geolayers 3",
+          "description": "Details about an interesting topic in the second blog.",
+          "image": "migSearchEngine",
+          "link": "#topicX"
+        }
+      }
     },
     "blog": {
-      "title": "My Blog",
-      "content": "Welcome to my blog, where I share insights, tutorials, and updates on technology and innovation. From deep dives into AI trends to practical coding tips, my posts aim to inform and inspire. Check out my latest articles below."
+      "title": "Current Available Blog Posts",
+      "subtabs": {
+        "blog1Link": {
+          "title": "Go to Blog 1",
+          "description": "Click here to read Blog 1.",
+          "link": "blog1",
+          "image": "virtualGuigo"
+        },
+        "blog2Link": {
+          "title": "Go to Blog 2",
+          "description": "Click here to read Blog 2.",
+          "link": "blog2",
+          "image": "gwrSearchEngine"
+        },
+        "blog3Link": {
+          "title": "Go to Blog 3",
+          "description": "Click here to read Blog 3.",
+          "link": "blog3",
+          "image": "gwrSearchEngine"
+        }
+      }
+    },
+    "blog1": {
+      "title": "Welcome to Blog 1",
+      "subtabs": {
+        "sectionA": {
+          "title": "First Section of Blog 1",
+          "description": "Content for the first section of blog one goes here.",
+          "image": "virtualGuigo",
+          "link": "#sectionA"
+        },
+        "sectionB": {
+          "title": "Second Section of Blog 1",
+          "description": "More exciting content for the second part of blog one.",
+          "image": "gwrSearchEngine",
+          "link": "#sectionB"
+        }
+      }
+    },
+    "blog2": {
+      "title": "Exploring Blog 2",
+      "subtabs": {
+        "itemX": {
+          "title": "Interesting Topic in Blog 2",
+          "description": "Details about an interesting topic in the second blog.",
+          "image": "migSearchEngine",
+          "link": "#topicX"
+        }
+      }
+    },
+    "blog3": {
+      "title": "Exploring Blog 3",
+      "subtabs": {
+        "itemX": {
+          "title": "Interesting Topic in Blog 3",
+          "description": "Details about an interesting topic in the second blog.",
+          "image": "migSearchEngine",
+          "link": "#topicX"
+        }
+      }
     },
     "about": {
       "title": "About Me",
