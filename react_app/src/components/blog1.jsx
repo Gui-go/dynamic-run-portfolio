@@ -1,16 +1,3 @@
-// import React from 'react';
-
-// const Blog1 = ({ content }) => {
-//   return (
-//     <div>
-//       <h1 className="text-3xl font-bold mb-4">{content?.title}</h1>
-//       <p>{content?.content}</p>
-//     </div>
-//   );
-// };
-
-// export default Blog1;
-
 import React, { useEffect } from 'react';
 import { select } from 'd3-selection';
 import * as geo from 'd3-geo';
