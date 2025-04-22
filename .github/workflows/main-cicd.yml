@@ -31,7 +31,7 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
-          context: ./flutter_app
+          context: ./react_app
           push: true
           tags: us-docker.pkg.dev/dynamic-run-portfolio1/dynamic-run-portfolio-repo/dynamic-run-portfolio:latest
 
