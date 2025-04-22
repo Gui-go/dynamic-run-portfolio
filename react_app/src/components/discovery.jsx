@@ -34,21 +34,21 @@ const Discovery = ({ content, setActiveTab }) => {
                 <h2 className="text-xl font-semibold text-gray-800">{item.title}</h2>
                 <p className="text-gray-600 mt-2">{item.description}</p>
                 <p className="text-gray-500 mt-2 text-sm">
-                  <span className="font-medium">Example Query:</span> {item.example}
-                </p>
-                <p className="text-gray-500 mt-2 text-sm">
-                  <span className="font-medium">Link:</span>
+                  <span className="font-medium">Link:  </span>
                   {item.link ? (
                     <a
                       href="#"
                       onClick={() => setActiveTab(item.link)}
                       className="hover:underline text-blue-500"
                     >
-                      {item.link}
+                      {item.title}
                     </a>
                   ) : (
                     <span>{item.link}</span>
                   )}
+                </p>
+                <p className="text-gray-500 mt-2 text-sm">
+                  <span className="font-medium">Example Query:</span> {item.example}
                 </p>
               </div>
             </div>

@@ -20,9 +20,6 @@ const Discovery1 = ({ content }) => {
                 <br />
                 <h1 className="text-3xl font-bold mb-4">{content?.title}</h1>
                 <p>{content?.description}</p>
-                <p>{content?.image}</p>
-                <p>{content?.link}</p>
-
                 <div>
                     <gen-search-widget
                         configid={content?.configid}

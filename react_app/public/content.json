@@ -8,7 +8,7 @@
         "content": "I am Guilherme, a Data Scientist and Data Engineer who finds fulfillment in turning data into meaningful impact. Armed with a Bachelors in Economics, a Masters in Geospatial Technologies, and over six years in the data IT field, I build solutions that combine analytics and innovation."
       },
       "highlights": {
-        "title": "Highlights!!!",
+        "title": "Highlights (v0.03)",
         "items": [
           {
             "title": "Scalable Data Pipelines",
@@ -244,12 +244,12 @@
       ]
     },
     "discovery": {
-      "title": "Discovery",
+      "title": "Discovery AI",
       "subtabs": {
         "virtual_guigo": {
           "title": "Virtual Guigo",
           "description": "A personalized AI assistant embodying Guilherme's expertise in data science and geospatial analysis, offering tailored insights and guidance.",
-          "example": "How would Guilherme approach a geospatial data project?",
+          "example": "Who is Guilherme and what are his favourite programming languages?",
           "link": "discovery1",
           "image": "virtualGuigo"
         },
@@ -261,7 +261,7 @@
           "image": "gwrSearchEngine"
         },
         "ms_thesis_discovery": {
-          "title": "Thesis Discovery",
+          "title": "Masters Thesis Discovery",
           "description": "A search engine to streamline research on migration driven by economic opportunities, organizing academic resources for Guilherme's master's thesis.",
           "link": "discovery3",
           "example": "How does the concept of Sublime Object of Ideology, by Slavoj Zizek, relate to migration?",
