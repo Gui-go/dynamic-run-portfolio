@@ -13,7 +13,7 @@
     "react-scripts": "^5.0.1",
     "tailwindcss": "^2.2.19"
   },
-  "author": "",
+  "author": "Guilherme Viegas",
   "license": "ISC",
   "browserslist": {
     "production": [
