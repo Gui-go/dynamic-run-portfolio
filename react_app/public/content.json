@@ -250,19 +250,61 @@
           "title": "Virtual Guigo",
           "description": "A personalized AI assistant embodying Guilherme's expertise in data science and geospatial analysis, offering tailored insights and guidance.",
           "example": "How would Guilherme approach a geospatial data project?",
+          "link": "discovery1",
           "image": "virtualGuigo"
         },
         "gwr_discovery": {
           "title": "GWR Discovery",
           "description": "A specialized tool for exploring Geographically Weighted Regression models (GWR, MixedGWR, MultiscaleGWR), enabling researchers to compare and analyze spatial regression techniques.",
+          "link": "discovery2",
           "example": "Compare GWR and MultiscaleGWR for spatial data analysis.",
           "image": "gwrSearchEngine"
         },
         "ms_thesis_discovery": {
           "title": "Thesis Discovery",
           "description": "A search engine to streamline research on migration driven by economic opportunities, organizing academic resources for Guilherme's master's thesis.",
+          "link": "discovery3",
           "example": "How does the concept of Sublime Object of Ideology, by Slavoj Zizek, relate to migration?",
           "image": "migSearchEngine"
+        }
+      }
+    },
+    "discovery1": {
+      "title": "Welcome to Discovery 1",
+      "subtabs": {
+        "sectionA": {
+          "title": "First Section of Discovery 1",
+          "description": "Content for the first section of Discovery one goes here.",
+          "image": "virtualGuigo",
+          "link": "#sectionA"
+        },
+        "sectionB": {
+          "title": "Second Section of Discovery 1",
+          "description": "More exciting content for the second part of Discovery one.",
+          "image": "gwrSearchEngine",
+          "link": "#sectionB"
+        }
+      }
+    },
+    "discovery2": {
+      "title": "Exploring Discovery 2",
+      "subtabs": {
+        "itemX": {
+          "title": "Interesting Topic in Discovery 2",
+          "description": "Details about an interesting topic in the second Discovery.",
+          "image": "migSearchEngine",
+          "link": "#topicX"
+        }
+      }
+    },
+    "discovery3": {
+      "title": "Exploring Discovery 3",
+      "subtabs": {
+        "itemX": {
+          "title": "Interesting Topic in Discovery 3",
+          "description": "Details about an interesting topic in the second Discovery.",
+          "image": "migSearchEngine",
+          "link": "#topicX"
         }
       }
     },

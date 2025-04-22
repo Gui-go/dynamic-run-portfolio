@@ -13,7 +13,7 @@ const imageMap = {
   'migSearchEngine': migSearchEngine
 };
 
-const Discovery = ({ content }) => {
+const Discovery = ({ content, setActiveTab }) => {
   return (
     <div className="discovery-container py-12 bg-gray-100 min-h-screen">
       <div className="max-w-4xl mx-auto px-4">
@@ -35,6 +35,20 @@ const Discovery = ({ content }) => {
                 <p className="text-gray-600 mt-2">{item.description}</p>
                 <p className="text-gray-500 mt-2 text-sm">
                   <span className="font-medium">Example Query:</span> {item.example}
+                </p>
+                <p className="text-gray-500 mt-2 text-sm">
+                  <span className="font-medium">Link:</span>
+                  {item.link ? (
+                    <a
+                      href="#"
+                      onClick={() => setActiveTab(item.link)}
+                      className="hover:underline text-blue-500"
+                    >
+                      {item.link}
+                    </a>
+                  ) : (
+                    <span>{item.link}</span>
+                  )}
                 </p>
               </div>
             </div>
