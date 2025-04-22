@@ -270,32 +270,18 @@
       }
     },
     "discovery1": {
-      "title": "Welcome to Discovery 1",
-      "subtabs": {
-        "sectionA": {
-          "title": "First Section of Discovery 1",
-          "description": "Content for the first section of Discovery one goes here.",
-          "image": "virtualGuigo",
-          "link": "#sectionA"
-        },
-        "sectionB": {
-          "title": "Second Section of Discovery 1",
-          "description": "More exciting content for the second part of Discovery one.",
-          "image": "gwrSearchEngine",
-          "link": "#sectionB"
-        }
-      }
+      "title": "Virtual Guigo Discovery Engine",
+      "description": "A Gemini Discovery Engine that embodies Guilherme's expertise in data science and geospatial analysis, offering tailored insights and guidance.",
+      "image": "virtualGuigo",
+      "link": "#sectionA",
+      "configid": "faadabe8-f17d-4a69-8f93-f0dac48512fd",
+      "searchterm": "Search here"
     },
     "discovery2": {
       "title": "Exploring Discovery 2",
-      "subtabs": {
-        "itemX": {
-          "title": "Interesting Topic in Discovery 2",
-          "description": "Details about an interesting topic in the second Discovery.",
-          "image": "migSearchEngine",
-          "link": "#topicX"
-        }
-      }
+      "description": "Details about an interesting topic in the second Discovery.",
+      "image": "migSearchEngine",
+      "link": "#topicX"
     },
     "discovery3": {
       "title": "Exploring Discovery 3",
