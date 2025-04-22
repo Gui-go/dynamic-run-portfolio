@@ -4,6 +4,8 @@ import * as d3Geo from 'd3-geo';
 import { json } from 'd3-fetch';
 import * as topojson from 'topojson-client';
 import * as d3Scale from 'd3-scale';
+import { max } from 'd3-array';
+import { interpolateBlues } from 'd3-scale-chromatic';
 
 const GeoLayer1 = ({ content }) => {
   const svgRef = useRef(null);
@@ -42,8 +44,8 @@ const GeoLayer1 = ({ content }) => {
 
     // Color scale for choropleth
     const colorScale = d3Scale.scaleSequential()
-      .domain([0, d3Scale.max(Object.values(populationData))])
-      .interpolator(d3Scale.interpolateBlues);
+      .domain([0, max(Object.values(populationData))])
+      .interpolator(interpolateBlues);
 
     // Tooltip
     const tooltip = select("body").append("div")
