@@ -75,3 +75,4 @@ resource "google_storage_bucket" "tf_docsbucket" {
     owner       = var.tag_owner
   }
 }
+

@@ -272,27 +272,20 @@
     "discovery1": {
       "title": "Virtual Guigo Discovery Engine",
       "description": "A Gemini Discovery Engine that embodies Guilherme's expertise in data science and geospatial analysis, offering tailored insights and guidance.",
-      "image": "virtualGuigo",
-      "link": "#sectionA",
       "configid": "faadabe8-f17d-4a69-8f93-f0dac48512fd",
       "searchterm": "Search here"
     },
     "discovery2": {
-      "title": "Exploring Discovery 2",
+      "title": "GWR Discovery Engine",
       "description": "Details about an interesting topic in the second Discovery.",
-      "image": "migSearchEngine",
-      "link": "#topicX"
+      "configid": "",
+      "searchterm": "Search here"
     },
     "discovery3": {
       "title": "Exploring Discovery 3",
-      "subtabs": {
-        "itemX": {
-          "title": "Interesting Topic in Discovery 3",
-          "description": "Details about an interesting topic in the second Discovery.",
-          "image": "migSearchEngine",
-          "link": "#topicX"
-        }
-      }
+      "description": "Details about an interesting topic in the second Discovery.",
+      "configid": "",
+      "searchterm": "Search here"
     },
     "geolayers": {
       "title": "geolayers",
