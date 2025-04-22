@@ -5,12 +5,14 @@ import placeholder from '../assets/images/error_img.png';
 import virtualGuigo from '../assets/images/virtualGuigo.png';
 import gwrSearchEngine from '../assets/images/gwrSearchEngine.jpg';
 import migSearchEngine from '../assets/images/migSearchEngine.png';
+import projectionglobe from '../assets/images/projectionglobe.jpg';
 
 const imageMap = {
   'error_img': placeholder,
   'virtualGuigo': virtualGuigo,
   'gwrSearchEngine': gwrSearchEngine,
-  'migSearchEngine': migSearchEngine
+  'migSearchEngine': migSearchEngine,
+  'projectionglobe': projectionglobe
 };
 
 const Blog = ({ content, setActiveTab }) => {

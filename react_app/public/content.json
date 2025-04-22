@@ -354,22 +354,22 @@
       "title": "Current Available Blog Posts",
       "subtabs": {
         "blog1Link": {
-          "title": "Go to Blog 1",
-          "description": "Click here to read Blog 1.",
+          "title": "Geographic Projections in D3.js",
+          "description": "Demonstrations of various geographic projection mappings so to understand its differences and similarities.",
           "link": "blog1",
-          "image": "virtualGuigo"
+          "image": "projectionglobe"
         },
         "blog2Link": {
           "title": "Go to Blog 2",
           "description": "Click here to read Blog 2.",
           "link": "blog2",
-          "image": "gwrSearchEngine"
+          "image": "gwrSearchEngine???"
         },
         "blog3Link": {
           "title": "Go to Blog 3",
           "description": "Click here to read Blog 3.",
           "link": "blog3",
-          "image": "gwrSearchEngine"
+          "image": "gwrSearchEngine???"
         }
       }
     },
