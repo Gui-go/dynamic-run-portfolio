@@ -8,7 +8,7 @@
         "content": "I am Guilherme, a Data Scientist and Data Engineer who finds fulfillment in turning data into meaningful impact. Armed with a Bachelors in Economics, a Masters in Geospatial Technologies, and over six years in the data IT field, I build solutions that combine analytics and innovation."
       },
       "highlights": {
-        "title": "Highlights (v0.031)",
+        "title": "Highlights (v0.033)",
         "items": [
           {
             "title": "Scalable Data Pipelines",
@@ -295,19 +295,19 @@
           "title": "Go to geolayers 1",
           "description": "Click here to read geolayers 1.",
           "link": "geolayer1",
-          "image": "virtualGuigo"
+          "image": "globebridge"
         },
         "geolayers2Link": {
           "title": "Cities I have lived in",
           "description": "A brief description of my history abroad, while living and working in Santa Catarina, Ireland, Portugal, and Germany.",
           "link": "geolayer2",
-          "image": "gwrSearchEngine"
+          "image": "2worlds"
         },
         "geolayers3Link": {
-          "title": "Go to geolayers 3",
-          "description": "Click here to read geolayers 3.",
+          "title": "My favourite restaurants around the world",
+          "description": "Join me on a culinary journey as I share my favorite restaurants around the world, from cozy Portuguese bistros to vibrant street food stalls in São Paulo. Each spot is a personal gem, chosen for its unforgettable flavors, unique atmosphere, and the stories that make dining there truly special.",
           "link": "geolayer3",
-          "image": "gwrSearchEngine"
+          "image": "restaurants2world"
         }
       }
     },
@@ -336,7 +336,7 @@
       "paragraph2": "In my youth, a pivotal moment came when I moved to Ireland. This international experience, though early in life, broadened my perspective and ignited a fascination with cultural exchange, migration, and global systems. Living abroad at a young age taught me how to adapt quickly and think beyond borders.",
       "subtitle3": "Returning Home to Grow (2015–2022)",
       "paragraph3": "After my time in Ireland, I returned to Brazil to pursue a degree in Economics. I studied at the Federal University of Santa Catarina (UFSC), where I developed a strong analytical foundation and a keen interest in spatial inequalities, migration trends, and development patterns. This academic period laid the groundwork for the geospatial lens I apply to economic phenomena today.",
-      "subtitle4": "A Step into Europe: Portugal and IT",
+      "subtitle4": "A Step into Europe: Portugal and IT (2022-2023)",
       "paragraph4": "Following graduation, I moved to Portugal to work in the IT sector. The shift to tech not only expanded my skillset but also deepened my understanding of digital infrastructures and their global interconnections. It was during this time I began connecting economic theory with real-world systems, through data and cloud technologies.",
       "subtitle5": "Bringing It All Together: Back to the Professional World",
       "paragraph5": "Having recently completed my Masters in Geospatial Technologies in Münster, Germany, I am now reintegrating into the professional world with a renewed perspective. My journey across countries and disciplines has equipped me with a unique blend of economic insight, spatial thinking, and technical expertise. I’m eager to apply these skills to meaningful challenges—whether in research, policy, or tech-driven solutions that address how people, places, and data connect in today’s dynamic world."

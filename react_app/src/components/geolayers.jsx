@@ -1,18 +1,3 @@
-// import React from 'react';
-
-// const GeoLayers = ({ content }) => {
-//   return (
-//     <div>
-//       <h1 className="text-3xl font-bold mb-4">{content?.title}</h1>
-//       <p>{content?.content}</p>
-//     </div>
-//   );
-// };
-
-// export default GeoLayers;
-
-
-
 import React from 'react';
 
 // Placeholder for missing images
@@ -20,12 +5,18 @@ import placeholder from '../assets/images/error_img.png';
 import virtualGuigo from '../assets/images/virtualGuigo.png';
 import gwrSearchEngine from '../assets/images/gwrSearchEngine.jpg';
 import migSearchEngine from '../assets/images/migSearchEngine.png';
+import w2orlds from '../assets/images/2worlds.jpg';
+import globebridge from '../assets/images/globebridge.jpg';
+import restaurants2world from '../assets/images/restaurants2world.jpg';
 
 const imageMap = {
   'error_img': placeholder,
   'virtualGuigo': virtualGuigo,
   'gwrSearchEngine': gwrSearchEngine,
-  'migSearchEngine': migSearchEngine
+  'migSearchEngine': migSearchEngine,
+  'globebridge': globebridge,
+  '2worlds': w2orlds,
+  'restaurants2world': restaurants2world,
 };
 
 const GeoLayers = ({ content, setActiveTab }) => {
