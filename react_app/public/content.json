@@ -276,16 +276,17 @@
       "searchterm": "Search here"
     },
     "discovery2": {
-      "title": "GWR Discovery Engine",
-      "description": "Details about an interesting topic in the second Discovery.",
-      "configid": "",
+      "title": "GWR Discovery AI",
+      "description": "A specialized tool for exploring Geographically Weighted Regression models (GWR, MixedGWR, MultiscaleGWR), enabling researchers to compare and analyze spatial regression techniques.",
+      "configid": "b3807ce8-19e2-46b3-a3f8-e3647fe785ec",
       "searchterm": "Search here"
     },
     "discovery3": {
-      "title": "Exploring Discovery 3",
-      "description": "Details about an interesting topic in the second Discovery.",
-      "configid": "",
+      "title": "Masters Thesis Discovery AI",
+      "description": "A search engine to streamline research on migration driven by economic opportunities, organizing academic resources for Guilherme's master's thesis.",
+      "configid": "ed260ab9-df84-4dcc-9522-1e76c22b4e84",
       "searchterm": "Search here"
+
     },
     "geolayers": {
       "title": "geolayers",
