@@ -289,11 +289,11 @@
 
     },
     "geolayers": {
-      "title": "geolayers",
+      "title": "GeoLayers",
       "subtabs": {
         "geolayers1Link": {
-          "title": "Go to geolayers 1",
-          "description": "Click here to read geolayers 1.",
+          "title": "Main cities I have been",
+          "description": "Embark on a tour through the main cities I’ve explored, from the historic charm of Rome’s ancient streets to the futuristic skyline of London. Each city holds a unique story, blending vibrant cultures, iconic landmarks, and personal adventures that have shaped my travels.",
           "link": "geolayer1",
           "image": "globebridge"
         },
