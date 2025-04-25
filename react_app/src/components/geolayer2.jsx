@@ -13,10 +13,10 @@ const GeoLayer2 = ({ content }) => {
     
     // Sample data: cities with coordinates and population (in millions)
     const cityData = [
-      { name: "Florianópolis, Santa Catarina", coordinates: [-48.533458, -27.594016], population: 0.0 },
-      { name: "Dublin, Ireland", coordinates: [-6.281240, 53.346563], population: 0.0 },
-      { name: "Lisbon, Portugal", coordinates: [-9.139207, 38.713354], population: 0.0 },
-      { name: "Munster, Nordrein Westfalia", coordinates: [7.628406, 51.963096], population: 0.0 },
+      { name: "Florianópolis, Santa Catarina", coordinates: [-48.533458, -27.594016], population: 0.0, description: "Where I have lived most of my life, where I grow up and started working." },
+      { name: "Dublin, Ireland", coordinates: [-6.281240, 53.346563], population: 0.0, description: "Where I have matured, spent one year in the island studying business administration and English langugage to prepare myself for the challenges to come." },
+      { name: "Lisbon, Portugal", coordinates: [-9.139207, 38.713354], population: 0.0, description: "Where I continued working in IT and got back in touch with my roots, keep good memories from this place :)" },
+      { name: "Munster, Nordrein Westfalia", coordinates: [7.628406, 51.963096], population: 0.0, description: "Where I did my Masters and aim to persue a Senior carrer." },
     ];
 
     // Set up SVG
@@ -78,7 +78,7 @@ const GeoLayer2 = ({ content }) => {
               .attr("opacity", 1);
             tooltip
               .style("visibility", "visible")
-              .html(`${d.name}: ${d.population}M`);
+              .html(`${d.name} <br /> ${d.description}`);
           })
           .on("mousemove", function(event) {
             tooltip
