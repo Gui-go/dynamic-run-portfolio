@@ -9,6 +9,7 @@ import Discovery from './components/discovery';
 import Discovery1 from './components/discovery1';
 import Discovery2 from './components/discovery2';
 import Discovery3 from './components/discovery3';
+import Discovery4 from './components/discovery4';
 import GeoLayers from './components/geolayers';
 import GeoLayer1 from './components/geolayer1';
 import GeoLayer2 from './components/geolayer2';
@@ -40,6 +41,7 @@ const App = () => {
       case 'discovery1': return <Discovery1 content={content[language]?.discovery1} />;
       case 'discovery2': return <Discovery2 content={content[language]?.discovery2} />;
       case 'discovery3': return <Discovery3 content={content[language]?.discovery3} />;
+      case 'discovery4': return <Discovery4 content={content[language]?.discovery4} />;
       case 'geolayers': return <GeoLayers content={content[language]?.geolayers} setActiveTab={setActiveTab} />;
       case 'geolayer1': return <GeoLayer1 content={content[language]?.geolayer1} />;
       case 'geolayer2': return <GeoLayer2 content={content[language]?.geolayer2} />;

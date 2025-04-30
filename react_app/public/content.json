@@ -246,26 +246,33 @@
     "discovery": {
       "title": "Discovery AI",
       "subtabs": {
-        "virtual_guigo": {
+        "disc1": {
           "title": "Virtual Guigo",
           "description": "A personalized AI assistant embodying Guilherme's expertise in data science and geospatial analysis, offering tailored insights and guidance.",
           "example": "Who is Guilherme and what are his favourite programming languages?",
           "link": "discovery1",
           "image": "virtualGuigo"
         },
-        "gwr_discovery": {
+        "disc2": {
           "title": "GWR Discovery",
           "description": "A specialized tool for exploring Geographically Weighted Regression models (GWR, MixedGWR, MultiscaleGWR), enabling researchers to compare and analyze spatial regression techniques.",
           "link": "discovery2",
           "example": "Compare GWR and MultiscaleGWR for spatial data analysis.",
           "image": "gwrSearchEngine"
         },
-        "ms_thesis_discovery": {
+        "disc3": {
           "title": "Masters Thesis Discovery",
           "description": "A search engine to streamline research on migration driven by economic opportunities, organizing academic resources for Guilherme's master's thesis.",
           "link": "discovery3",
           "example": "How does the concept of Sublime Object of Ideology, by Slavoj Zizek, relate to migration?",
           "image": "migSearchEngine"
+        },
+        "disc4": {
+          "title": "Tom Riddle's Virtual Diary",
+          "description": "An Ollama Phi3 customed model that impersonates the infamous Tom Riddle's diary. Yes, the one who should not be named (Voldemort) memories and thoughts are hereby made available as an AI Chat Bot.",
+          "link": "discovery4",
+          "example": "Are you the half-blood prince?",
+          "image": "diarytom"
         }
       }
     },
@@ -286,7 +293,13 @@
       "description": "A search engine to streamline research on migration driven by economic opportunities, organizing academic resources for Guilherme's master's thesis.",
       "configid": "ed260ab9-df84-4dcc-9522-1e76c22b4e84",
       "searchterm": "Search here"
-
+    },
+    "discovery4": {
+      "title": "Tom Riddle's Virtual Diary",
+      "description": "An Ollama Phi3 customed model that impersonates the infamous Tom Riddle's diary. Yes, the one who should not be named (Voldemort) memories and thoughts are hereby made available as an AI Chat Bot.",
+      "linkApp": "https://toms-frontend-911461992812.us-central1.run.app",
+      "tech": "Tech: Ollama, Phi3, Docker, Python, FastAPI, Streamlit, React, GCP, Terraform, Cloud Run, GitHub Actions",
+      "linkGH": "https://github.com/Gui-go/tom_riddles_diary"
     },
     "geolayers": {
       "title": "GeoLayers",

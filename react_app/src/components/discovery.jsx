@@ -5,12 +5,15 @@ import placeholder from '../assets/images/error_img.png';
 import virtualGuigo from '../assets/images/virtualGuigo.png';
 import gwrSearchEngine from '../assets/images/gwrSearchEngine.jpg';
 import migSearchEngine from '../assets/images/migSearchEngine.png';
+import diarytom from '../assets/images/diarytom.jpg';
+
 
 const imageMap = {
   'error_img': placeholder,
   'virtualGuigo': virtualGuigo,
   'gwrSearchEngine': gwrSearchEngine,
-  'migSearchEngine': migSearchEngine
+  'migSearchEngine': migSearchEngine,
+  'diarytom': diarytom
 };
 
 const Discovery = ({ content, setActiveTab }) => {
@@ -34,7 +37,7 @@ const Discovery = ({ content, setActiveTab }) => {
                 <h2 className="text-xl font-semibold text-gray-800">{item.title}</h2>
                 <p className="text-gray-600 mt-2">{item.description}</p>
                 <p className="text-gray-500 mt-2 text-sm">
-                  <span className="font-medium">Link:  </span>
+                  <span className="font-medium"> </span>
                   {item.link ? (
                     <a
                       href="#"
@@ -60,3 +63,5 @@ const Discovery = ({ content, setActiveTab }) => {
 };
 
 export default Discovery;
+
+
